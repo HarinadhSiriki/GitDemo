@@ -1,0 +1,2684 @@
+Basic Software Testing Interview Questions for Freshers
+
+1. What are the different test levels?
+There are four test levels
+Unit/component/program/module testing
+Integration testing
+System testing
+Acceptance testing
+
+2. What is “use case testing”?
+In order to identify and execute the functional requirement of an application from start to finish “use case” is used 
+and the techniques used to do this is known as “Use Case Testing.”
+
+3. What is the difference between the STLC (Software Testing Life Cycle) and SDLC (Software Development Life Cycle)?
+SDLC deals with development/coding of the software while STLC deales with validation and verification of the software
+
+4. What is traceability matrix?
+The relationship between test cases and requirements is shown with the help of a document. This document is 
+known as a traceability matrix.
+
+5. What is Equivalence partitioning testing?
+Equivalence partitioning testing is a software testing technique which divides the application input test data into 
+each partition at least once of equivalent data from which test cases can be derived. By this testing method, it reduces
+the time required for software testing.
+
+6. What is white box testing and list the types of white box testing?
+White box testing technique involves selection of test cases based on an analysis of the internal structure 
+(Code coverage, branches coverage, paths coverage, condition coverage, etc.) of a component or system. 
+It is also known as Code-Based testing or Structural testing. Different types of white box testing are
+Statement Coverage
+Decision Coverage
+
+7. In white box testing, what do you verify?
+In white box testing following steps are verified.
+Verify the security holes in the code
+Verify the incomplete or broken paths in the code
+Verify the flow of structure according to the document specification
+Verify the expected outputs
+Verify all conditional loops in the code to check the complete functionality of the application
+Verify the line by line coding and cover 100% testing
+
+8. What is black box testing? What are the different black box testing techniques?
+Black box testing is the software testing method which is used to test the software without knowing the internal 
+structure of code or program. This testing is usually done to check the functionality of an application. The different 
+black box testing techniques are
+Equivalence Partitioning
+Boundary value analysis
+Cause-effect graphing
+
+9. What is the difference between static and dynamic testing?
+Static testing: During Static testing method, the code is not executed, and it is performed using the software 
+documentation.
+Dynamic testing: To perform this testing the code is required to be in an executable form.
+
+10. What are verification and validation?
+Verification is a process of evaluating software at the development phase. It helps you to decide whether the 
+product of a given application satisfies the specified requirements. Validation is the process of evaluating software 
+at the after the development process and to check whether it meets the customer requirements.
+------------------------------------------------------------------------------------------------------------------------------------------------
+11. What is Exploratory Testing?
+Exploratory testing is a hands-on approach in which testers are involved in minimum planning and maximum
+test execution. The planning involves the creation of a test charter, a short declaration of the scope of a short 
+(1 to 2 hour) time-boxed test effort, the objectives and possible approaches to be used. The test design and test 
+execution activities are performed in parallel typically without formally documenting the test conditions, test cases 
+or test scripts. This does not mean that other, more formal testing techniques will not be used. 
+
+For example, the tester may decide to use boundary value analysis but will think through and test the most important
+boundary values without necessarily writing them down. Some notes will be written during the exploratory-testing 
+session so that a report can be produced afterward.
+
+12. What is Integration testing?
+Integration testing is a level of software testing process, where individual units of an application are combined and 
+tested. It is usually performed after unit and functional testing.
+
+13. What Test Plans consists of?
+Test design, scope, test strategies, approach are various details that Test plan document consists of.
+Test case identifier
+Scope
+Features to be tested
+Features not to be tested
+Test strategy & Test approach
+Test deliverables
+Responsibilities
+Staffing and training
+Risk and Contingencies
+
+14. What is the difference between UAT (User Acceptance Testing) and System testing?
+System Testing: System testing is finding defects when the system undergoes testing as a whole; it is also known 
+as end-to-end testing. In such type of testing, the application suffers from beginning till the end.
+UAT: User Acceptance Testing (UAT) involves running a product through a series of specific tests which determines 
+whether the product will meet the needs of its users.
+
+15. Mention the difference between Data Driven Testing and Retesting?
+Retesting: It is a process of checking bugs that are actioned by the development team to verify that they are fixed.
+Data Driven Testing (DDT): In data driven testing process, the application is tested with multiple test data. 
+The application is tested with a different set of values.
+
+
+Advanced Manual Software Testing Interview Questions for 3/5/10 Years Experience
+
+
+16. What are the valuable steps to resolve issues while testing?
+Record: Log and handle any problems which have happened
+Report: Report the issues to higher level manager
+Control: Define the issue management process
+
+17. What is the difference between test scenarios, test cases, and test script?
+Difference between test scenarios and test cases is that
+Test Scenarios: A Test Scenario is any functionality that can be tested. It is also called Test Condition or 
+                         Test Possibility.
+Test Cases: It is a document that contains the steps that have to be executed; it has been planned earlier.
+Test Script: It is written in a programming language and it’s a short program used to test part of the functionality 
+                   of the software system. In other words a written set of steps that should be performed manually.
+
+18. What is Latent defect?
+Latent defect: This defect is an existing defect in the system which does not cause any failure as the exact set of 
+conditions has never been met
+
+19. What are the two parameters which can be useful to know the quality of test execution?
+To know the quality of test execution, we can use two parameters
+Defect reject ratio
+Defect leakage ratio
+
+20. What is the function of the software testing tool “phantom”?
+Phantom is a freeware and is used for windows GUI automation scripting language. It allows us to take control 
+of windows and functions automatically. It can simulate any	 combination of keystrokes and mouse clicks as well as 
+menus, lists and more.
+--------------------------------------------------------------------------------------------------------------------------------------------
+21. Explain what Test Deliverables is?
+Test Deliverables are a set of documents, tools and other components that have to be developed and maintained in 
+support of testing.
+There are different test deliverables at every phase of the software development lifecycle
+Before Testing
+During Testing
+After the Testing
+
+22. What is mutation testing?
+Mutation testing is a technique to identify if a set of test data or test case is useful by intentionally introducing 
+various code changes (bugs) and retesting with original test data/ cases to determine if the bugs are detected.
+
+23. What all things you should consider before selecting automation tools for the AUT?
+Technical Feasibility
+Complexity level
+Application stability
+Test data
+Application size
+Re-usability of automated scripts
+Execution across environment
+
+24. How will you conduct Risk Analysis?
+For the risk analysis following steps need to be implemented
+Finding the score of the risk
+Making a profile for the risk
+Changing the risk properties
+Deploy the resources of that test risk
+Making a database of risk
+
+25. What are the categories of debugging?
+Categories for debugging
+Brute force debugging
+Backtracking
+Cause elimination
+Program Slicing
+Fault tree analysis
+
+26. What is fault masking explain with example?
+When the presence of one defect hides the presence of another defect in the system, it is known as fault masking.
+Example: If the “Negative Value” cause a firing of unhandled system exception, the developer will prevent the 
+negative values input. This will resolve the issue and hide the defect of unhandled exception firing.
+
+27. Explain what Test Plan is? What is the information that should be covered in Test Plan?
+A test plan can be defined as a document describing the scope, approach, resources, and schedule of testing 
+activities and a test plan should cover the following details.
+Test Strategy
+Test Objective
+Exit/Suspension Criteria
+Resource Planning
+Test Deliverables
+
+28. How can you eliminate the product risk in your project?
+It helps you to eliminate product risk in your project, and there is a simple yet crucial step that can reduce the 
+product risk in your project.
+Investigate the specification documents
+Have discussions about the project with all stakeholders including the developer
+As a real user walk around the website
+
+29. What is the common risk that leads to project failure?
+The common risk that leads to a project failure are
+Not having enough human resource
+Testing Environment may not be set up properly
+Limited Budget
+Time Limitations
+
+30. On what basis you can arrive at an estimation for your project?
+To estimate your project, you have to consider the following points
+Divide the whole project into the smallest tasks
+Allocate each task to team members
+Estimate the effort required to complete each task
+Validate the estimation
+------------------------------------------------------------------------------------------------------------------------------------------------
+31. Explain how you would allocate a task to team members?
+Task	Member
+Analyze software requirement specification
+All the members
+Create the test specification
+Tester/Test Analyst
+Build up the test environment
+Test administrator
+Execute the test cases
+Tester, a Test administrator
+Report defects
+Tester
+
+32. Explain what is testing type and what are the commonly used testing type?
+To get an expected test outcome, a standard procedure is followed which is referred to as Testing Type.
+Commonly used testing types are
+Unit Testing: Test the smallest code of an application
+API Testing: Testing API created for the application
+Integration Testing: Individual software modules are combined and tested
+System Testing: Complete testing of the system
+Install/UnInstall Testing: Testing done from the point of client/customer view
+Agile Testing: Testing through Agile technique
+
+33. While monitoring your project what all things you have to consider?
+The things that have to be taken in considerations are
+Is your project on schedule
+Are you over budget
+Are you working towards the same career goal
+Have you got enough resources
+Are there any warning signs of impending problems
+Is there any pressure from management to complete the project sooner
+
+34. What are the common mistakes which create issues?
+Matching resources to wrong projects
+Test manager lack of skills
+Not listening to others
+Poor Scheduling
+Underestimating
+Ignoring the small problems
+Not following the process
+
+35. What does a typical test report contain? What are the benefits of test reports?
+A test report contains the following things:
+Project Information
+Test Objective
+Test Summary
+Defect
+The benefits of test reports are:
+Current status of project and quality of product are informed
+If required, stakeholder and customer can take corrective action
+A final document helps to decide whether the product is ready for release
+
+36. What is test management review and why it is important?
+Management review is also referred to as Software Quality Assurance or SQA. 
+SQA focusses more on the software process rather than the software work products. 
+It is a set of activities designed to make sure that the project manager follows the standard process. 
+SQA helps test manager to benchmark the project against the set standards.
+
+37. What are the best practices for software quality assurance?
+The best practices for an effective SQA implementation is
+Continuous Improvement
+Documentation
+Tool Usage
+Metrics
+Responsibility by team members
+Experienced SQA auditors
+
+38. When is RTM (Requirement Traceability Matrix) prepared?
+RTM is prepared before test case designing. Requirements should be traceable from review activities.
+
+39. What is the difference between Test matrix and Traceability matrix?
+Test Matrix: Test matrix is used to capture actual quality, effort, the plan, resources and time required to capture 
+all phases of software testing
+Traceability Matrix: Mapping between test cases and customer requirements is known as Traceability Matrix
+
+40. In manual testing what are stubs and drivers?
+Both stubs and drivers are part of incremental testing. In incremental testing, there are two approaches namely 
+bottom-up and top-down approach. Drivers are used in bottom-up testing and stub is used for a top-down approach. 
+In order to test the main module, the stub is used, which is a dummy code or program.
+=================================================================================
+41. What is the step you would follow once you find the defect?
+Once a defect is found you would follow the step
+a) Recreate the defect
+b) Attach the screenshot
+c) Log the defect
+
+42. Explain what is “Test Plan Driven” or “Key Word Driven” method of testing?
+This technique uses the actual test case document developed by testers using a spreadsheet containing special 
+“key Words”. The key words control the processing.
+
+43. What is the DFD (Data Flow Diagram)?
+When a “flow of data” through an information system is graphically represented, then it is known as Data Flow Diagram. 
+It is also used for the visualization of data processing.
+
+44. Explain what LCSAJ is?
+LCSAJ stands for ‘linear code sequence and jump.’ It consists of the following three items
+a) Start of the linear sequence of executable statements
+b) End of the linear sequence
+c) The target line to which control flow is transferred at the end of the linear sequence
+
+45. Explain what N+1 testing is?
+The variation of regression testing is represented as N+1. In this technique, the testing is performed in multiple
+ cycles in which errors found in test cycle ‘N’ are resolved and re-tested in test cycle N+1. The cycle is repeated 
+unless there are no errors found.
+
+46. What is Fuzz testing and when it is used?
+Fuzz testing is used to detect security loopholes and coding errors in software. In this technique, random data is
+added to the system in an attempt to crash the system. If vulnerability persists, a tool called fuzz tester is used to 
+determine potential causes. This technique is more useful for bigger projects but only detects a major fault.
+
+47. Mention what the main advantages of statement coverage metric of software testing are?
+The benefit of statement coverage metric is that
+a) It does not require processing source code and can be applied directly to object code
+b) Bugs are distributed evenly through the code, due to which percentage of executable statements covered reflects 
+the percentage of faults discovered
+
+48. How to generate test cases for “replace a string” method?
+a) If characters in new string > characters in the previous string. None of the characters should get truncated
+b) If characters in new string< characters in the previous string. Junk characters should not be added
+c) Spaces after and before the string should not be deleted
+d) String should be replaced only for the first occurrence of the string
+
+49. How will you handle a conflict amongst your team members?
+I will talk individually to each person and note their concerns
+I will find a solution to the common problems raised by team members
+I will hold a team meeting, reveal the solution and ask people to co-operate
+
+50. Mention what are the categories of defects?
+Mainly there are three defect categories
+Wrong: When a requirement is implemented incorrectly
+Missing: It is a variance from the specification, an indication that a specification was not implemented or a 
+               requirement of the customer is not met
+Extra: A requirement incorporated into the product that was not given by the end customer. It is considered as a 
+          defect because it is a variance from the existing requirements
+===============================================================================
+51. Explain how does a test coverage tool work?
+The code coverage testing tool runs parallel while performing testing on the actual product. The code coverage 
+tool monitors the executed statements of the source code. When the final testing is done, we get a complete report
+of the pending statements and also get the coverage percentage.
+
+52. Mention what the difference between a “defect” and a “failure” in software testing is?
+In simple terms when a defect reaches the end customer, it is called a failure while the defect is identified internally
+ and resolved; then it is referred to as a defect.
+
+53. Explain how to test documents in a project that span across the software development lifecycle?
+The project span across the software development lifecycle in the following manner
+Central/Project test plan: It is the main test plan that outlines the complete test strategy of the project. This plan is 
+used till the end of the software development lifecycle
+Acceptance test plan: This document begins during the requirement phase and is completed at the final delivery
+System test plan: This plan starts during the design plan and proceeds until the end of the project
+Integration and Unit test plan: Both these test plans start during the execution phase and last until the final delivery
+
+54. Explain which test cases are written first black boxes or white boxes?
+Black box test cases are written first as to write black box test cases; it requires project plan and requirement 
+document all these documents are easily available at the beginning of the project. While writing white box test cases 
+requires more architectural understanding and is not available at the start of the project.
+
+55. Explain what the difference between latent and masked defects is?
+Latent defect: A latent defect is an existing defect that has not caused a failure because the sets of conditions were 
+never met
+Masked defect: It is an existing defect that has not caused a failure because another defect has prevented that part 
+of the code from being executed
+
+56. Mention what bottom-up testing is?
+Bottom-up testing is an approach to integration testing, where the lowest level components are tested first, then 
+used to facilitate the testing of higher level components. The process is repeated until the component at the top of the 
+hierarchy is tested.
+
+57. Mention what the different types of test coverage techniques are?
+Different types of test coverage techniques include
+Statement Coverage: It verifies that each line of source code has been executed and tested
+Decision Coverage: It ensures that every decision in the source code is executed and tested
+Path Coverage: It ensures that every possible route through a given part of the code is executed and tested
+
+58. Mention what the meaning of breath testing is?
+Breath testing is a test suite that exercises the full functionality of a product but does not test features in detail
+
+59. Explain what the meaning of Code Walk Through is?
+Code Walk Through is the informal analysis of the program source code to find defects and verify coding techniques
+
+60. Mention what the basic components of defect report format are?
+The essential components of defect report format include
+Project Name
+Module Name
+Defect detected on
+Defect detected by
+Defect ID and Name
+Snapshot of the defect
+Priority and Severity status
+Defect resolved by
+Defect resolved on
+================================================================================
+61. Mention what the purpose behind doing end-to-end testing is?
+End-to-end testing is done after functional testing. The purpose behind doing end-to-end testing is that
+To validate the software requirements and integration with external interfaces
+Testing application in real-world environment scenario
+Testing of interaction between application and database
+
+62. Explain what it means by test harness?
+A test harness is configuring a set of tools and test data to test an application in various conditions, and it involves 
+monitoring the output with expected output for correctness.
+
+63. Explain in a testing project what testing activities would you automate?
+In testing project testing activities, you would automate are
+Tests that need to be run for every build of the application
+Tests that use multiple data for the same set of actions
+Identical tests that need to be executed using different browsers
+Mission critical pages
+A transaction with pages that do not change in a short time
+
+64. What is the MAIN benefit of designing tests early in the life cycle?
+It helps prevent defects from being introduced into the code.
+
+65. What is risk-based testing?
+Risk-based Testing is the term used for an approach to creating a Test Strategy that is based on prioritizing tests by 
+risk. The basis of the approach is a detailed risk analysis and prioritizing of risks by risk level. Tests to address each 
+risk are then specified, starting with the highest risk first.
+
+66. What is the KEY difference between preventative and reactive approaches to testing?
+Preventative tests are designed early; reactive tests are designed after the software has been produced.
+
+67. What is the purpose of exit criteria?
+The purpose of exit criteria is to define when a test level is completed.
+
+68. What determines the level of risk?
+The likelihood of an adverse event and the impact of the event determine the level of risk.
+
+69. When is used Decision table testing?
+Decision table testing is used for testing systems for which the specification takes the form of rules or cause-effect 
+combinations. In a decision table, the inputs are listed in a column, with the outputs in the same column but below 
+the inputs. The remainder of the table explores combinations of inputs to define the outputs produced.
+
+70. Why we use decision tables?
+The techniques of equivalence partitioning and boundary value analysis are often applied to specific situations or 
+inputs. However, if different combinations of inputs result in different actions being taken, this can be more difficult 
+to show using equivalence partitioning and boundary value analysis, which tend to be more focused on the user 
+interface. The other two specification-based techniques, decision tables, and state transition testing are more focused 
+on business logic or business rules. A decision table is a good way to deal with combinations of things (e.g., inputs).
+This technique is sometimes also referred to as a ’cause-effect’ table. The reason for this is that there is an associated 
+logic diagramming technique called ’cause-effect graphing’ which was sometimes used to help derive the decision 
+table.
+================================================================================
+71. What is the MAIN objective when reviewing a software deliverable?
+To identify defects in any software work product.
+
+72. Which of the following defines the expected results of a test? Test case specification or test design specification.
+Test case specification defines the expected results of a test.
+
+73. What is the benefit of test independence?
+It avoids author bias in defining effective tests.
+
+74. As part of which test process do you determine the exit criteria?
+The exit criteria are determined on the bases of ‘Test Planning’.
+
+75. What is Alpha testing?
+Pre-release testing by end user representatives at the developer’s site.
+
+76. What is beta testing?
+Testing performed by potential customers at their own locations.
+
+77. Mention what the difference between Pilot and Beta testing is?
+The difference between a pilot and beta testing is that pilot testing is actually done using the product by the group 
+of users before the final deployment, and in beta testing, we do not input real data, but it is installed at the end 
+customer to validate if the product can be used in production.
+
+78. Given the following fragment of code, how many tests are required for 100% decision coverage?
+if width > length 
+   thenbiggest_dimension = width
+     if height > width 
+             thenbiggest_dimension = height 
+     end_if
+elsebiggest_dimension = length  
+            if height > length 
+                thenbiggest_dimension = height 
+          end_if
+end_if
+4
+
+79. You have designed test cases to provide 100% statement and 100% decision coverage for the following fragment 
+of code. if width > length then biggest_dimension = width else biggest_dimension = length end_if 
+The following has been added to the bottom of the code fragment above. 
+print “Biggest dimension is ” &biggest_dimensionprint “Width: ” & width print “Length: ” & length 
+How many more test cases are required?
+None, existing test cases can be used.
+
+80. What is the difference between Testing Techniques and Testing Tools?
+Testing technique: – Is a process for ensuring that some aspects of the application system or unit functions properly 
+there may be few techniques but many tools.
+Testing Tools: – Is a vehicle for performing a test process. The tool is a resource to the tester, but itself is 
+insufficient to conduct testing
+=================================================================================
+
+81. We use the output of the requirement analysis, the requirement specification as the input for writing …
+User Acceptance Test Cases
+
+82. Repeated Testing of an already tested program, after modification, to discover any defects introduced or uncovered as 
+a result of the changes in the software being tested or in another related or unrelated software component:
+Regression Testing
+
+83. A wholesaler sells printer cartridges. The minimum order quantity is 5. There is a 20% discount for orders of 100 
+or more printer cartridges. You have been asked to prepare test cases using various values for the number of printer 
+cartridges ordered. Which of the following groups contain three test inputs that would be generated using Boundary 
+Value Analysis?
+4, 5, 99
+
+84. What is component testing?
+Component testing, also known as unit, module, and program testing, searches for defects in and verifies the 
+functioning of software (e.g., modules, programs, objects, classes, etc.) that are separately testable. 
+Component testing may be done in isolation from the rest of the system depending on the context of the development 
+life cycle and the system. Most often stubs and drivers are used to replace the missing software and simulate the 
+interface between the software components simply. A stub is called from the software component to be tested; 
+a driver calls a component to be tested.
+
+85. What is functional system testing?
+Testing the end to end functionality of the system as a whole is defined as a functional system testing.
+
+86. What are the benefits of Independent Testing?
+Independent testers are unbiased and identify different defects at the same time.
+
+87. In a REACTIVE approach to testing when would you expect the bulk of the test design work to be begun?
+The bulk of the test design work begun after the software or system has been produced.
+
+88. What are the different Methodologies in Agile Development Model?
+There are currently seven different agile methodologies that I am aware of:
+Extreme Programming (XP)
+Scrum
+Lean Software Development
+Feature-Driven Development
+Agile Unified Process
+Crystal
+Dynamic Systems Development Model (DSDM)
+
+89. Which activity in the fundamental test process includes evaluation of the testability of the requirements and 
+system?
+A ‘Test Analysis’ and ‘Design’ includes evaluation of the testability of the requirements and system.
+
+90. What is typically the MOST important reason to use risk to drive testing efforts?
+Because testing everything is not feasible.
+=================================================================================
+
+91. What is random/monkey testing? When is it used?
+Random testing is often known as monkey testing. In such type of testing data is generated randomly often using a 
+tool or automated mechanism. With this randomly generated input, the system is tested, and results are analyzed 
+accordingly. These testing are less reliable; hence it is normally used by the beginners and to see whether the system 
+will hold up under adverse effects.
+
+92. Which of the following are valid objectives for incident reports?
+Provide developers and other parties with feedback about the problem to enable identification, isolation, and 
+correction as necessary.
+Provide ideas for test process improvement.
+Provide a vehicle for assessing tester competence.
+Provide testers with a means of tracking the quality of the system under test.
+
+93. Consider the following techniques. Which are static and which are dynamic techniques?
+Equivalence Partitioning.
+Use Case Testing.
+Data Flow Analysis.
+Exploratory Testing.
+Decision Testing.
+Inspections.
+Data Flow Analysis and Inspections are static; Equivalence Partitioning, Use Case Testing, Exploratory Testing and 
+Decision Testing are dynamic.
+
+94. Why are static testing and dynamic testing described as complementary?
+Because they share the aim of identifying defects but differ in the types of defect they find.
+
+95. What are the phases of a formal review?
+In contrast to informal reviews, formal reviews follow a formal process. A typical formal review process consists of 
+six main steps:
+Planning
+Kick-off
+Preparation
+Review meeting
+Rework
+Follow-up.
+
+96. What is the role of moderator in the review process?
+The moderator (or review leader) leads the review process. He or she determines, in co-operation with the author, 
+the type of review, approach and the composition of the review team. The moderator performs the entry check and the 
+follow-up on the rework, in order to control the quality of the input and output of the review process. The moderator 
+also schedules the meeting, disseminates documents before the meeting, coaches other team members, paces the 
+meeting, leads possible discussions and stores the data that is collected.
+
+97. What is an equivalence partition (also known as an equivalence class)?
+An input or output ranges of values such that only one value in the range becomes a test case.
+
+98. When should configuration management procedures be implemented?
+During test planning.
+
+99. A Type of Functional Testing, which investigates the functions relating to the detection of threats, such as virus 
+from malicious outsiders?
+Security Testing
+
+100. Testing wherein we subject the target of the test, to varying workloads to measure and evaluate the performance 
+behaviors and the ability of the target and the test to continue to function properly under these different workloads?
+Load Testing
+================================================================================
+
+101. Testing activity which is performed to expose defects in the interfaces and in the interaction between integrated 
+components is?
+Integration Level Testing
+
+102. What are the Structure-based (white-box) testing techniques?
+Structure-based testing techniques (which are also dynamic rather than static) use the internal structure of the 
+software to derive test cases. They are commonly called ‘white-box’ or ‘glass-box’ techniques (implying you can see 
+into the system) since they require knowledge of how the software is implemented, that is, how it works. 
+For example, a structural technique may be concerned with exercising loops in the software. Different test cases may 
+be derived to exercise the loop once, twice, and many times. This may be done regardless of the functionality of the 
+software.
+
+103. When should “Regression Testing” be performed?
+After the software has changed or when the environment has changed Regression testing should be performed.
+
+104. What is negative and positive testing?
+A negative test is when you put in an invalid input and receives errors. While positive testing is when you put in a 
+valid input and expect some action to be completed in accordance with the specification.
+
+105. What is the purpose of a test completion criterion?
+The purpose of test completion criterion is to determine when to stop testing
+
+106. What can static analysis NOT find?
+For example memory leaks.
+
+107. What is the difference between re-testing and regression testing?
+Re-testing ensures the original fault has been removed; regression testing looks for unexpected side effects.
+
+108. What are the Experience-based testing techniques?
+In experience-based techniques, people’s knowledge, skills, and background are a prime contributor to the test 
+conditions and test cases. The experience of both technical and business people is important, as they bring different 
+perspectives to the test analysis and design process. Due to previous experience with similar systems, they may have 
+insights into what could go wrong, which is very useful for testing.
+
+109. What type of review requires formal entry and exit criteria, including metrics?
+Inspection
+
+110. Could reviews or inspections be considered part of testing?
+Yes, because both help detects faults and improves quality.
+================================================================================
+
+111. An input field takes the year of birth between 1900 and 2004 what the boundary values for testing this field are?
+1899,1900,2004,2005
+
+112. Which of the following tools would be involved in the automation of regression test? 
+a. Data tester b. Boundary tester c. Capture/Playback d. Output comparator.
+d. Output comparator
+
+113. To test a function, what has to write a programmer, which calls the function to be tested and pass test data.
+Driver
+
+114. What is the one Key reason why developers have difficulty testing their own work?
+Lack of Objectivity
+
+115. “How much testing is enough?”
+The answer depends on the risk for your industry, contract and special requirements.
+
+116. When should testing be stopped?
+It depends on the risks for the system being tested. There are some criteria based on which you can stop testing.
+Deadlines (Testing, Release)
+Test budget has been depleted
+Bug rate fall below a certain level
+Test cases completed with certain percentage passed
+Alpha or beta periods for testing ends
+Coverage of code, functionality or requirements are met to a specified point
+
+117. Which of the following is the primary purpose of the integration strategy for integration testing in the small?
+The primary purpose of the integration strategy is to specify which modules to combine when and how many at once.
+
+118. What are semi-random test cases?
+Semi-random test cases are nothing, but when we perform random test cases and do equivalence partitioning to those 
+test cases, it removes redundant test cases, thus giving us semi-random test cases.
+
+119. Given the following code, which statement is true about the minimum number of test cases required for full 
+statement and branch coverage?
+Read p
+Read q
+
+IF p+q> 100
+
+THEN Print “Large”
+
+ENDIF
+
+IF p > 50
+
+THEN Print “p Large”
+
+ENDIF
+
+1 test for statement coverage, 2 for branch coverage
+
+120. Which review is normally used to evaluate a product to determine its suitability for the intended use and to 
+identify discrepancies?
+Technical Review.
+==================================================================================
+
+121. Faults found should be originally documented by whom?
+By testers.
+
+122. Which is the current formal world-wide recognized documentation standard?
+There isn’t one.
+
+123. Which of the following is the review participant who has created the item to be reviewed?
+Author
+
+124. A number of critical bugs are fixed in software. All the bugs are in one module, related to reports. The test 
+manager decides to do regression testing only on the reports module.
+Regression testing should be done on other modules as well because fixing one module may affect other modules.
+
+125. Why does the boundary value analysis provide good test cases?
+Because errors are frequently made during programming of the different cases near the ‘edges’ of the range of values.
+
+126. What makes an inspection different from other review types?
+It is led by a trained leader, uses formal entry and exit criteria and checklists.
+
+127. Why can be tester dependent on configuration management?
+Because configuration management assures that we know the exact version of the testware and the test object.
+
+128. What is V-Model?
+A software development model that illustrates how testing activities integrate with software development phases
+
+129. What is maintenance testing?
+Triggered by modifications, migration or retirement of existing software
+
+130. What is test coverage?
+Test coverage measures in some specific way the amount of testing performed by a set of tests (derived in some other 
+way, e.g., using specification-based techniques). Wherever we can count things and can tell whether or not each of 
+those things has been tested by some test, then we can measure coverage.
+================================================================================
+
+131. Why is incremental integration preferred over “big bang” integration?
+Because incremental integration has better early defects screening and isolation ability
+
+132. What is called the process starting with the terminal modules?
+Bottom-up integration
+
+133. During which test activity could fault be found most cost-effectively?
+During test planning
+
+134. The purpose of the requirement phase is
+To freeze requirements, to understand user needs, to define the scope of testing
+
+135. Why we split testing into distinct stages?
+We split testing into distinct stages because of the following reasons,s
+Each test stage has a different purpose
+It is easier to manage to test in stages
+We can run different test into different environments
+Performance and quality of the testing is improved using phased testing
+
+136. What is DRE?
+In order to measure test effectiveness, a powerful metric is used to measure test effectiveness known as 
+DRE (Defect Removal Efficiency) From this metric we would know how many bugs we have found from the set of 
+test cases. The formula for calculating DRE is
+DRE=Number of bugs while a testing/number of bugs while testing + number of bugs found by a user
+
+137. Which of the following is likely to benefit most from the use of test tools providing test capture and replay 
+facilities? 
+a) Regression testing b) Integration testing c) System testing d) User acceptance testing
+Regression testing
+
+138. How would you estimate the amount of re-testing likely to be required?
+Metrics from previous similar projects and discussions with the development team
+
+139. What studies data flow analysis?
+The use of data on paths through the code.
+
+140. What is failure?
+Failure is a departure from specified behavior.
+================================================================================
+
+141. What are Test comparators?
+Is it really a test if you put some inputs into some software, but never look to see whether the software produces the 
+correct result? The essence of testing is to check whether the software produces the correct result and to do that, and 
+we must compare what the software produces to what it should produce. A test comparator helps to automate aspects 
+of that comparison.
+
+142. Who is responsible for document all the issues, problems and open point that were identified during the review 
+meeting
+Scribe
+
+143. What is the main purpose of Informal review
+An inexpensive way to get some benefit
+
+144. What is the purpose of test design technique?
+Identifying test conditions and Identifying test cases
+
+145. When testing a grade calculation system, a tester determines that all scores from 90 to 100 will yield a grade of A ,
+but scores below 90 will not. This analysis is known as:
+Equivalence partitioning
+
+146. A test manager wants to use the resources available for the automated testing of a web application. 
+The best choice is
+Tester, test automater, web specialist, DBA
+
+147. During the testing of a module tester, ‘X’ found a bug and assigned it to a developer. But developer rejects the 
+same, saying that it’s not a bug. What ‘X’ should do?
+Send the detailed information of the bug encountered and check the reproducibility
+
+148. A type of integration testing in which software elements, hardware elements, or both are combined all at once 
+into a component or an overall system, rather than in stages.
+Big-Bang Testing
+
+149. In practice, which Life Cycle model may have more, fewer or different levels of development and testing, 
+depending on the project and the software product. For example, there may be component integration testing after 
+component testing, and system integration testing after system testing.
+V-Model
+
+150. Which technique can be used to achieve input and output coverage? It can be applied to human input, input via 
+interfaces to a system, or interface parameters in integration testing.
+Equivalence partitioning
+
+151. “This life cycle model is driven by schedule and budget risks” This statement is best suited for.
+V-Model
+================================================================================
+
+152. In which order should tests be run?
+The most important one must be tested first
+
+153. The later in the development life cycle a fault is discovered, the more expensive it is to fix. Why?
+The fault has been built into more documentation, code, tests, etc
+
+154. What is Coverage measurement?
+It is a partial measure of test thoroughness.
+
+155. What is Boundary value testing?
+Test boundary conditions on, below and above the edges of input and output equivalence classes. For instance, 
+let say a bank application where you can withdraw maximum Rs.20,000 and a minimum of Rs.100, so in boundary 
+value testing we test only the exact boundaries, rather than hitting in the middle. That means we test above the 
+maximum limit and below the minimum limit.
+
+156. What does COTS represent?
+Commercial Off The Shelf.
+
+157. The purpose of which is to allow specific tests to be carried out on a system or network that resembles as closely 
+as possible the environment where the item under test will be used upon release?
+Test Environment
+
+158. What can be thought of as being based on the project plan, but with greater amounts of detail?
+Phase Test Plan
+
+159. What is Rapid Application Development?
+Rapid Application Development (RAD) is formally a parallel development of functions and subsequent integration. 
+Components/functions are developed in parallel as if they were mini projects, the developments are time-boxed, 
+delivered, and then assembled into a working prototype. This can very quickly give the customer something to see 
+and use and to provide feedback regarding the delivery and their requirements. Rapid change and development of the 
+product are possible using this methodology. However the product specification will need to be developed for the 
+product at some point, and the project will need to be placed under more formal controls before going into production.
+
+=================================================================================
+
+Manual Testing Interview Questions for Freshers
+
+Ques.1. What do you mean by Software Testing?
+Ans. Software testing is the process of evaluating a system to check if it satisfies its business requirements. 
+It measures the overall quality of the system in terms of attributes. Like – correctness, completeness, usability, 
+performance, etc.
+Basically, it is used for ensuring the quality of software to the stakeholders of the application.
+
+
+Ques.2. Why is testing required?
+Ans. We need software testing for the following reasons-
+1. Testing provides an assurance to the stakeholders that the product works as intended.
+2. Avoidable defects leaked to the end-user/customer without proper testing adds a bad reputation to the development 
+company.
+3. Defects detected earlier phase of SDLC results in lesser cost and resource utilization of correction.
+4. Saves development time by detecting issues in an earlier phase of development.
+5. The testing team adds another dimension to the software development by providing a different viewpoint to the 
+product development process.
+
+
+Ques.3. When should we stop testing?
+Ans. Testing (both manual and automated) can be stopped when one or more of the following conditions are met-
+1. After test case execution – The testing phase can be stopped when one complete cycle of test cases is executed 
+after the last known bug fix with the agreed-upon value of pass-percentage
+2. Once the testing deadline is met – Testing can be stopped after deadlines get met with no high priority issues left 
+in the system.
+3. Based on Mean Time Between Failure (MTBF) – MTBF is the time interval between two inherent failures. Based 
+on stakeholder’s decisions, if the MTBF is quite large, one can stop the testing phase.
+4. Based on code coverage value – The testing phase can be stopped when the automated code coverage reaches a 
+specific threshold value with sufficient pass-percentage and no critical bug.
+
+
+Ques.4. What is Quality Assurance and what are the different activities involved in Quality assurance?
+Ans. Quality assurance is a process-driven approach that checks if the process of developing the product is correct 
+and conforming to all the standards. It is considered a preventive measure. This is because it identifies the weakness 
+in the process to build software. It involves activities like document review, test case review, walk-throughs, 
+inspection, etc.
+
+
+Ques.5. What is Quality Control and what are the different types of testing involved in QC?
+Ans. Quality control is a product-driven approach that checks that the developed product conforms to all the specified 
+requirements. It is considered a corrective measure as it tests the built product to find the defects. It involves different 
+types of testing like functional testing, performance testing, usability testing, etc.
+
+
+Ques.6. What is the difference between Verification and Validation?
+Ans. Following are the major differences between verification and validation-
+#	Verification	Validation
+1.Verification is the process of evaluating the different artifacts as well as the process of software development.
+        This is done in order to ensure that the product being developed will comply with the standards.
+               Validation is the process of validating that the developed software product conforms to the specified 
+              business requirements.
+2.It is a static process of analyzing the documents and not the actual end product.	
+           It involves dynamic testing of a software product by running it.
+3.Verification is a process-oriented approach.	Validation is a product-oriented approach.
+4.Answers the question – “Are we building the product right?”	
+                Answers the question – “Are we building the right product?”
+5.Errors found during verification require lesser cost/resources to get fixed as compared to be found during the 
+     validation phase.	
+      Errors found during validation require more cost/resources. Later the error is discovered higher is the cost to fix it.
+
+
+Ques.7. What is SDLC?
+Ans. SDLC stands for Software Development Life Cycle. It refers to all the activities performed during software 
+development – requirement gathering, requirement analysis, designing, coding or implementation, testing, 
+deployment, and maintenance.
+
+Ques.8. Explain the STLC – Software Testing life cycle.
+Ans. The software testing life cycle refers to all the activities performed during testing of a software product. 
+The phases include-
+Requirement analysis and validation – In this phase, the requirements documents are analyzed and validated and the 
+scope of testing is defined.
+Test planning – In this phase, test plan strategy is defined, estimation of test effort is defined along with automation 
+strategy, and tool selection is done.
+Test Design and Analysis – Here, test cases are designed, test data is prepared and automation scripts are implemented.
+Test environment setup – A test environment closely simulating the real-world environment is prepared.
+Test execution – The test cases are prepared, bugs are reported and retested once resolved.
+Test closure and reporting – A test closure report is prepared to have the final test results summary, learning, and test 
+metrics.
+
+Ques.9. What are the different types of testing?
+Ans. Testing can broadly be defined into two types-
+Functional testing – Functional testing involves validating the functional specifications of the system.
+Non Functional testing – Non-functional testing is a type of testing that involves testing of non-functional 
+requirements of the system such as performance, scalability, security, endurance, portability, etc.
+Going by the way the testing is done, it can be categorized as-
+Black box testing – In black-box testing, the tester need not have any knowledge of the internal architecture or 
+implementation of the system. The tester interacts with the system through the interface providing input and 
+validating the received output.
+White box testing – In white box testing, the tester analyses the internal architecture of the system as well as the 
+quality of source code on different parameters like code optimization, code coverage, reusability, etc.
+Gray box testing – In gray box testing, the tester has partial access to the internal architecture of the system 
+e.g. the tester may have access to the design documents or database structure. This information helps the tester to 
+test the application better.
+
+Ques.10. What is manual testing?
+Ans. Manual testing a type of testing that involves validation of the requirements of the application by executing a 
+predefined set of test cases manually without the use of any automation tool.
+================================================================================
+
+Ques.11. What is automation testing?
+Ans. Automation testing is a type of software testing that involves automated test case execution using an automation 
+tool. It helps in reducing the test execution time as the test scripts written once, can be run automatically any number 
+of times without any human intervention.
+
+
+Ques.12. What are some advantages of automation testing?
+Ans. Some advantages of automation testing are-
+
+Test execution using automation is fast and saves a considerable amount of time.
+Carefully written test scripts remove the chance of human error during testing.
+Tests execution can be scheduled for a nightly run using CI tools like Jenkins which can also be configured to 
+provide daily test results to relevant stakeholders.
+Automation testing is very less resource-intensive. Once the tests are automated, test execution requires almost no 
+time of QAs. Saving QA bandwidth for other exploratory tasks.
+
+Ques.13. What are some disadvantages of automation testing?
+Ans. Some disadvantages of automation testing are-
+It requires skilled automation testing experts to write test scripts.
+Additional effort to write scripts is required upfront.
+Automation scripts are limited to verification of the tests that are coded. These tests may miss some error that is 
+very glaring and easily identifiable to human(manual QA).
+Even with some minor change in the application, script update and maintenance is required.
+
+Ques.14. What is performance testing?
+Ans. Performance testing is a type of non-functional testing in which the performance of the system is evaluated 
+under expected or higher load. The various performance parameters evaluated during performance testing 
+are – response time, reliability, resource usage, scalability, etc. The different types of performance testing are – 
+Load, Stress, Endurance, Spike, and Volume Testing.
+
+Types of Performance Testing
+
+
+Ques.15. What is a test bed?
+Ans. A test bed is a test environment used for testing an application. A test bed configuration can consist of the 
+hardware and software requirement of the application under test including – operating system, hardware 
+configurations, software configurations, tomcat, database, etc.
+
+
+Ques.16. What is a test plan?
+Ans. A test plan is a formal document describing the scope of testing, the approach to be used, resources required 
+and time estimate of carrying out the testing process. It is derived from the requirement documents 
+(Software Requirement Specifications).
+
+
+Ques.17. What is a test scenario?
+Ans. A test scenario is derived from a use case. It is used for end to end testing of a feature of an application. 
+A single test scenario can cater to multiple test cases. The scenario testing is particularly useful when there is time 
+constraint while testing.
+
+
+Ques.18. What is a Test case?
+Ans. A test case is used to test the conformance of an application with its requirement specifications. 
+It is a set of conditions with pre-requisites, input values and expected results in a documented form.
+
+
+Ques.19. What are some attributes of a test case?
+Ans. A test case can have the following attributes-
+
+TestCaseId – A unique identifier of the test case.
+Test Summary – One-liner summary of the test case.
+Description – Detailed description of the test case.
+Prerequisite or pre-condition – A set of prerequisites that must be followed before executing the test steps.
+Test Steps – Detailed steps for performing the test case.
+Expected result – The expected result in order to pass the test.
+Actual result – The actual result after executing the test steps.
+Test Result – Pass/Fail status of the test execution.
+Automation Status – Identifier of automation – whether the application is automated or not.
+Date – The test execution date.
+Executed by – Name of the person executing the test case.
+
+Ques.20. What is Test data?
+Ans. Test data is data that is used to test the software with different inputs and helps to check whether the 
+corresponding output is as per the expected result or not. This data is created based on the business requirements.
+===============================================================================
+
+Ques.21. What is a Test script?
+Ans. A test script is an automated test case written in any programming or scripting language. These are basically a 
+set of instructions to evaluate the functioning of an application.
+
+
+Ques.22. What is Error in Software Testing?
+Ans  Since we all are humans so it is obvious to make a mistake. Likewise, error is a similar case that happens in 
+software testing due to some missing scenario in the requirements, some issues in design or some mistakes in the 
+implementation.
+
+
+Ques.23. What is a Bug?
+Ans. A bug is a fault in a software product detected at the time of testing, causing it to function in an unanticipated 
+manner.
+
+
+Ques.24. What is a defect?
+Ans. A defect is non-conformance with the requirement of the product detected in production (after the product goes 
+live).
+
+
+Ques.25. What are some defect reporting attributes?
+Ans. Some of the attributes of a Defect report are-
+
+DefectId – A unique identifier of the defect.
+Defect Summary – A one-line summary of the defect, more like a defect title.
+Defect Description – A detailed description of the defect.
+Steps to reproduce – The steps to reproduce the defect.
+Expected Result – The expected behavior from which the application is deviating because of the defect.
+Actual Result- The current erroneous state of the application w.r.t. the defect.
+Defect Severity – Based on the criticality of the defect, this field can be set to minor, medium, major or show stopper.
+Priority – Based on the urgency of the defect, this field can be set on a scale of P0 to P3.
+
+Ques.26. What are some of the bug or defect management tools?
+Ans. Some of the most widely used Defect Management tools are – Jira, Bugzilla, Redmine, Mantis, Quality Center, 
+etc.
+
+
+Ques.27. What is defect density?
+Ans. Defect density is the measure of the density of the defects in the system. It can be calculated by dividing the 
+number of defects identified by the total number of lines of code(or methods or classes) in the application or program.
+
+
+Ques.28. What is defect priority?
+Ans. A defect priority is the urgency of fixing the defect. Normally the defect priority is set on a scale of P0 to P3 with
+ P0 defect having the most urgency to fix.
+
+
+Ques.29. What is defect severity?
+Ans. Defect severity is the severity of the defect impacting the functionality. Based on the organization, we can have 
+different levels of defect severity ranging from minor to critical or show stopper.
+
+
+Ques.30. Give an example of Low priority-Low severity, Low priority-High severity, High priority-Low severity, 
+High priority-High severity defects.
+Ans. Below are the examples for different combinations of priority and severity-
+Low priority-Low severity – A spelling mistake in a page not frequently navigated by users.
+Low priority-High severity – Application crashing in some very corner case.
+High priority-Low severity – Slight change in logo color or spelling mistake in the company name.
+High priority-High severity – Issue with login functionality.
+================================================================================
+
+Ques.31. What is a blocker?
+Ans. A blocker is a bug of high priority and high severity. It prevents or blocks testing of some other major portion 
+of the application as well.
+
+
+Ques.32. What is a critical bug?
+Ans. A critical bug is a bug that impacts a major functionality of the application and the application cannot be 
+delivered without fixing the bug. It is different from the blocker bug as it doesn’t affect or blocks the testing of other 
+parts of the application.
+
+
+Ques.33. Explain the bug life cycle or the different states of a bug.
+Ans. A bug goes through the following phases in software development-
+
+New – A bug or defect when detected is in New state.
+Assigned – The newly detected bug when assigned to the corresponding developer is in the Assigned state.
+Open – When the developer works on the bug, the bug lies in the Open state.
+Rejected/Not a bug – A bug lies in rejected state in case the developer feels the bug is not genuine.
+Deferred – A deferred bug is one, fix of which is deferred for some time(for the next releases) based on the urgency 
+and criticality of the bug.
+Fixed – When a bug is resolved by the developer it is marked as fixed.
+Test – When fixed the bug is assigned to the tester and during this time the bug is marked as in Test.
+Reopened – If the tester is not satisfied with the issue resolution the bug is moved to the Reopened state.
+Verified – After the Test phase, if the tester feels the bug is resolved, it is marked as verified.
+Closed – After the bug is verified, it is moved to Closed status.
+Also, check – Software Testing Checklist for different Applications
+
+
+
+Ques.34. What are the different test design techniques?
+Ans. Test design techniques are different standards of test designing that allow systematic and widely accepted test 
+cases. The different test design techniques can be categorized as static test design techniques and dynamic test design
+ techniques.
+
+Static Test Design Techniques – The test design techniques which involves testing without executing the code. 
+The various static test design techniques can be further divided into two parts manual and using tools-
+Manual static design techniques
+Walkthrough
+Informal reviews
+Technical reviews
+Audit
+Inspection
+Management review
+Static design techniques using tools
+Static analysis of code – It includes analysis of the different paths and flows in the application and different states of 
+the test data.
+Compliance with coding standard – This evaluates the compliance of the code with the different coding standards.
+Analysis of code metrics – The tool used for static analysis is required to evaluate the different metrics like lines of 
+code, complexity, code coverage, etc.
+Dynamic Test Design Techniques – Dynamic test design techniques involve testing by running the system under test.
+Specification-based – Specification-based test design techniques are also referred to as black-box testing. These 
+involve testing based on the specification of the system under test without knowing its internal architecture.
+Structure-based – Structure-based test design techniques are also referred to as white box testing. In these techniques, 
+the knowledge of code or internal architecture of the system is required to carry out the testing.
+Experienced-based – The experienced-based techniques are completely based on the experience or intuition of the 
+tester. The two most common forms of experienced-based testing are – Adhoc testing and exploratory testing.
+
+Ques.35. What is Static Testing?
+Ans.  Static testing is a kind of testing for reviewing the work products or documentation that are being created 
+throughout the entire project. It allows reviewing the specifications, business requirements, documentation, 
+processes and functional requirements in the initial phase of testing.
+So that the testers involved in it can understand the requirements in more detail before starting the testing lifecycle 
+which intends to help in delivering the quality product.
+
+
+Ques.36. What is Dynamic Testing?
+Ans. Testing performed by executing or running the application under test either manually or using automation.
+
+
+Ques.37. Explain the different types of specification-based test design techniques?
+Ans. Specification-based test design techniques are also referred to as black-box testing. It involves testing based 
+on the specification of the system under test without knowing its internal architecture. The different types of 
+specification-based test design or black box testing techniques are-
+Equivalence partitioning – Grouping test data into logical groups or equivalence classes with the assumption that 
+all the data items lying in the classes will have the same effect on the application.
+Boundary value analysis – Testing using the boundary values of the equivalence classes taken as the test input.
+Decision tables – Testing using decision tables showing the application’s behavior based on a different combination 
+of input values.
+Cause-effect graph – Testing using a graphical representation of the result or outcome and all the factors that affect 
+the outcome.
+State transition testing – Testing based on the state machine model.
+Use case testing – Testing carried out using use cases.
+
+Ques.38. Explain equivalence class partitioning.
+Ans. Equivalence class partitioning is a specification-based black-box testing technique. In equivalence class 
+partitioning, a set of input data that defines different test conditions are partitioned into logically similar groups 
+such that using even a single test data from the group for testing can be considered as similar to using all the other 
+data in that group.
+For example, for testing a Square program (a program that prints the square of a number), the equivalence classes 
+can be-
+Set of Negative numbers, whole numbers, decimal numbers, set of large numbers, etc.
+
+
+Ques.39. What is boundary value analysis?
+Ans. Boundary value analysis is a software testing technique for designing test cases wherein the boundary values 
+of the classes of the equivalence class partitioning are taken as input to the test cases e.g. if the test data lies in the 
+range of 0-100, the boundary value analysis will include test data – 0,1, 99, 100.
+
+
+Ques.40. What is decision table testing?
+Ans. Decision table testing is a type of specification-based test design technique or black-box testing technique in 
+which testing is carried out using decision tables showing the application’s behavior based on different combinations 
+of input values.
+Decision tables are particularly helpful in designing test cases for complex business scenarios involving verification 
+of application with multiple combinations of input.
+================================================================================
+
+Ques.41. What is a cause-effect graph?
+Ans. A cause-effect graph testing is a black-box test design technique in which graphical representation of input i.e. 
+cause and output i.e. effect is used for test designing. This technique uses different notations representing AND, OR, 
+NOT, etc relations between the input conditions leading to output.
+
+
+Ques.42. What is state transition testing?
+Ans. State transition testing is a black box test design technique based on a state machine model. State transition 
+testing is based on the concept that a system can be defined as a collection of multiple states and the transition from 
+one state to another happens because of some event.
+
+
+Ques.43. What is the use case testing?
+Ans. A use case testing is a black-box testing approach in which testing is carried out using use cases. A use case 
+scenario is seen as an interaction between the application and actors(users). These use cases are used for depicting 
+requirements and hence can also serve as a basis for acceptance testing.
+
+
+Ques.44. What is Test Coverage?
+Ans. It is a metric that measures the amount of testing performed on software while executing the test cases. 
+Test coverage for any software can be calculated as the percentage of the number of test areas or coverage items 
+covered with respect to the total number of test areas.
+The higher the test coverage, the more the part of the software gets covered by test cases and hence, the more 
+effective will be the testing.
+
+
+Ques.45. What is structure-based testing?
+Ans. Structure-based test design techniques are also referred to as white box testing. In these techniques, 
+the knowledge of code or internal architecture of the system is required to carry out the testing. The various kinds 
+of testing structure-based or white testing techniques are-
+Statement testing – A white box testing technique in which the test scripts are designed to execute the application’s 
+code statements. Its coverage is measured as the line of code or statements executed by test scripts.
+Decision testing/branch testing – A testing technique in the test scripts is designed to execute the different 
+decision-branches (e.g. if-else conditions) in the application. Its coverage is measured as the percentage of decision 
+points out of the total decision points in the application.
+Condition testing – Condition testing is a testing approach in which we test the application with both True and False 
+outcome for each condition. Hence for n conditions, we will have 2n test scripts.
+Multiple condition testing – In multiple condition testing, the different combinations of condition outcomes are tested 
+at least once. Hence for 100% coverage, we will have 2^n test scripts. This is very exhaustive and very difficult to 
+achieve 100% coverage.
+Condition determination testing – It is an optimized way of multiple condition testing in which the combinations 
+which don’t affect the outcomes are discarded.
+Path testing – Testing the independent paths in the system(paths are executable statements from entry to exit points).
+
+Ques.46. What is code coverage?
+Ans. Code coverage is the measure of the amount of code covered by the test scripts. It gives the idea of the part of 
+the application covered by the test suite.
+
+Ques.47. What are Statement testing and statement coverage in white box testing?
+Ans. Statement testing is a white box testing approach in which test scripts are designed to execute code statements.
+Statement coverage is the measure of the percentage of statements of code executed by the test scripts out of the total 
+code statements in the application. The statement coverage is the least preferred metric for checking test coverage.
+
+Ques.48. What is decision testing or branch testing?
+Ans. Decision testing or branch testing is a white box testing approach in which test coverage is measured by the 
+percentage of decision points(e.g. if-else conditions) executed out of the total decision points in the application.
+
+Ques.49. What are the different levels of testing?
+Ans. Testing can be performed at different levels during the development process. Performing testing activities at 
+multiple levels helps in the early identification of bugs. The different levels of testing are –
+Unit Testing
+Integration Testing
+System Testing
+Acceptance Testing
+
+Ques.50. What is unit testing?
+Ans. Unit testing is the first level of testing and it involves testing individual modules of the software. It is usually 
+performed by developers.
+================================================================================
+
+Ques.51. What is integration testing?
+Ans. Integration testing is performed after unit testing. In integration testing, we test the group of related modules. 
+It aims at finding interfacing issues between the modules.
+
+Ques.52. What are the different types of integration testing?
+Ans. The different type of integration testing is-
+Big bang Integration Testing – In big bang integration testing, testing starts only after all the modules are integrated.
+Top-down Integration Testing – In top-down integration, testing/integration starts from top modules to lower-level 
+modules.
+Bottom-up Integration Testing – In bottom-up integration, testing starts from lower-level modules to higher-level 
+modules up in the hierarchy.
+Hybrid Integration Testing – Hybrid integration testing is the combination of both Top-down and bottom-up 
+integration testing. In this approach, the integration starts from the middle layer and testing is carried out in both the 
+direction
+
+Ques.53. What is a stub?
+Ans. In the case of top-down integration testing, many times lower-level modules are not developed while beginning 
+testing/integration with top-level modules. In those cases, Stubs or dummy modules are used that simulate the 
+working of modules by providing a hard-coded or expected output based on the input values.
+
+
+Ques.54. What is a driver?
+Ans. In the case of bottom-up integration testing, drivers are used to simulating the working of top-level modules in 
+order to test the related modules lower in the hierarchy.
+
+
+Ques.55. What is system testing?
+Ans. System testing is the level of testing where the complete software is tested as a whole. The conformance of the 
+application with its business requirements is checked in system testing.
+
+
+Ques.56. What is acceptance testing?
+Ans. Acceptance testing is testing performed by the potential end-user or customers to check if the software conforms 
+to the business requirements and can be accepted for use.
+
+
+Ques.57. What is UAT Testing?
+Ans  UAT testing is the last phase of the testing lifecycle. Its main focus is to validate that software is working in 
+accordance with business requirements. It also ensures that the application is user-friendly and can handle complex 
+scenarios at its best before releasing the product to real-world users.
+
+
+Ques.58. What is End-To-End Testing?
+Ans. End-to-End testing is a type of testing where the entire application undergoes testing, to test each functionality 
+of the software is working as expected and there is no loophole remaining in it. It ensures that the application is 
+user-friendly and meets the business requirements.
+
+
+Ques.59. What is alpha testing?
+Ans. Alpha testing is a type of acceptance testing that is performed testers or the internal employees of the 
+organization at the developer site.
+
+
+Ques.60. What is beta testing?
+Ans. Beta testing is the testing done by end-users at the end user’s site. It allows users to provide direct input about 
+the software to the development company.
+=================================================================================
+
+Ques.61. What is Adhoc Testing?
+Ans. Adhoc testing is an unstructured way of testing that is performed without any formal documentation or proper 
+planning.
+
+
+Ques.62. What is monkey testing?
+Ans. Monkey testing is a type of testing that is performed randomly without any predefined test cases or test inputs.
+
+
+Ques.63. How is monkey testing different from Adhoc testing?
+Ans. In the case of Adhoc testing although there are no predefined or documented test cases still testers have an 
+understanding of the application. While in the case of monkey testing testers don’t have any understanding of the 
+application.
+
+
+Ques.64. What is exploratory testing?
+Ans. Exploratory testing is a type of testing in which new test cases are added and updated while exploring the 
+system or executing test cases. Unlike scripted testing, test design and execution go parallelly in exploratory testing.
+
+
+Ques.65. What is load testing?
+Ans. Load testing is a type of performance testing which aims at finding an application’s performance under the 
+expected workload. During load testing, we evaluate the response time, throughput, error rate, etc parameters of the 
+application.
+
+
+Ques.66. What is stress testing?
+Ans. Stress testing is a type of performance testing in which an application’s behavior is monitored under a higher 
+workload than expected. Stress testing is done to find memory leaks and the robustness of the application.
+
+
+Ques.67. What is volume testing?
+Ans. Volume testing is a type of performance testing in which the performance of the application is evaluated with a 
+large amount of data. It checks the scalability of the application and helps in the identification of a bottleneck with a 
+high volume of data.
+
+
+Ques.68. What is endurance testing or Soak testing?
+Ans. Endurance testing is a type of performance testing which aims at finding issues like memory leaks when an 
+application is subjected to load test for a long period of time.
+
+
+Ques.69. What is spike testing?
+Ans. Spike testing is a type of performance testing in which the application’s performance is measured while 
+suddenly increasing the number of active users during the load test.
+
+
+Ques.70. What is UI testing?
+Ans. UI or user interface testing is a type of testing that aims at finding Graphical User Interface defects in the 
+application and checks that the GUI conforms to the specifications.
+================================================================================
+
+Ques.71. What is usability testing?
+Ans. Usability testing is the type of testing that aims at determining the ease of using the application. It aims at 
+uncovering the usability defects in the application.
+
+
+Ques.72. What is Accessibility testing?
+Ans. Accessibility testing is the type of testing which aims at determining the ease of use or operation of the 
+application specifically for people with disabilities.
+
+
+Ques.73. What is compatibility testing?
+Ans. Compatibility testing is validating software to see how compatible the software is with a particular 
+environment – operating system, platform, or hardware.
+
+
+Ques.74. What is configuration testing?
+Ans. Configuration testing is the type of testing used to evaluate the configurational requirements of the software 
+along with the effect of changing the required configuration.
+
+
+Ques.75. What is localization testing?
+Ans. Localization testing is a type of testing in which we evaluate the application’s customization
+(a localized version of the application) in a particular culture, locale or country.
+
+
+Ques.76. What is globalization testing?
+Ans. Globalization testing is a type of testing in which application is evaluated for its functioning across the world 
+in different cultures, languages, locales, and countries.
+
+
+Ques.77. What is negative testing?
+Ans. Negative testing is a type of testing in which the application’s robustness(graceful exiting or error reporting) 
+is evaluated when provided with invalid input or test data.
+
+
+Ques.78. What is security testing?
+Ans. Security testing is a type of testing which aims at evaluating the integrity, authentication, authorization, 
+availability, confidentiality, and non-repudiation of the application under test.
+
+
+Ques.79. What is penetration testing?
+Ans. Penetration testing or pen testing is a type of security testing in which application is evaluated(safely exploited) 
+for different kinds of vulnerabilities that any hacker could exploit.
+
+
+Ques.80. What is robustness testing?
+Ans. Robustness testing is a type of testing that is performed to find the robustness of the application i.e. the ability of the 
+system to behave gracefully in case of erroneous test steps and test input.
+=================================================================================
+
+Ques.81. What is concurrency testing?
+Ans. Concurrency testing is a multi-user testing in which an application is evaluated by analyzing the application’s 
+behavior with concurrent users accessing the same functionality.
+
+
+Ques.82. What is backend testing?
+Ans. Backend testing is a type of testing that involves testing the backend of the system which comprises testing the 
+databases and the APIs in the application.
+
+
+Ques.83. What is A/B testing?
+Ans. A/B testing is a type of testing in which the two variants of the software product are exposed to the end-users 
+and on analyzing the user behavior on each variant, the better variant is chosen and used thereafter.
+
+
+Ques.84. What is risk analysis?
+Ans. Risk analysis is the analysis of the risk identified and assigning an appropriate risk level to the defect based on 
+its impact over the application.
+
+
+Ques.85. What is the difference between regression and retesting?
+Ans. Regression testing involves testing the application to verify that a new code change doesn’t affect the other parts 
+of the application. Whereas, in retesting, we verify if the fixed issue is resolved or not.
+
+
+Ques.86. What is the difference between black-box and white-box testing?
+Ans. Black-box testing is a type of testing in which the internal architecture of the code is not required for testing. 
+It is usually applicable for system and acceptance testing.
+Whereas white-box testing requires internal design and implementation knowledge of the application being tested. 
+It is usually applicable for Unit and Integration testing.
+
+
+Ques.87. What is the difference between smoke and sanity testing?
+Ans. The difference between smoke and sanity testing is-
+Smoke testing is a type of testing in which all major functionalities of the application are tested before carrying out 
+exhaustive testing. Whereas, sanity testing is a subset of regression testing which is carried out when there is some 
+minor fix in the application in a new build.
+In smoke testing, shallow-wide testing is carried out while in Sanity, narrow-deep testing (for a particular 
+functionality) is done.
+The smoke tests are usually documented or are automated. Whereas, the sanity tests are generally not documented 
+or unscripted.
+
+Ques.88. What is the difference between Release and Build?
+Ans. A build is an executable file provided by the developers to the testing team for testing the application. 
+It undergoes various iterations of fixing and testing until the application works as expected. Once the application 
+becomes stable and ready for the end-users, it’s released in the market.
+Whereas, a release is an installable software provided to the end-users after it gets certified by the testing team. 
+During the release of any software to the client, release notes are attached to it that includes a number of defects still 
+open, covered user stories, change-requirements, and version of the release.
+
+
+Manual Testing Interview Questions for Experienced
+
+Ques.89. What is the difference between bug leakage and bug release?
+Ans. Bug leakage is when the tested software is released into the market and the end-user finds bugs in it. 
+These include the bugs that got missed by the testing team during the testing phase.
+Whereas, bug release is when a specific version of the software is released in the market with some known bugs 
+which are intended to get fixed in the later versions. These types of issues are of low priority and are mentioned in the 
+release notes while sharing with the end-users.
+
+
+Ques.90. What do you mean by Defect Triage?
+Ans. Defect triage is a process in which the defects are prioritized based on different factors like severity, risk, the 
+time required to fix the bug, etc. The defect triage meeting includes the different stakeholders – the development team, 
+testing team, project manager, BAs, etc, which decide the priority of fixing the defects.
+=================================================================================
+
+Ques.91. What is a test harness? Why do we need a test harness?
+Ans. A test harness is a collection of test scripts and test data usually associated with the unit and integration testing.
+It involves stubs and drivers that are required for testing software modules and integrated components.
+
+
+Ques.92. What is all pair testing?
+Ans. All pair testing is a type of testing in which the application is tested with all possible combinations of the 
+values of input parameters.
+
+
+Ques.93. What is failover testing?
+Ans. Failover testing is a type of testing that is used to verify the application’s ability to allocate more 
+resources(more servers) in case of failure and transferring the processing part to the back-up system.
+
+
+Ques.94. What is fuzz testing?
+Ans. Fuzz testing is a type of testing in which a large amount of random data is provided as input to the application 
+in order to find security loopholes and other issues in the application.
+
+
+Ques.95. What is pilot testing?
+Ans. Pilot testing is testing carried out as a trial by a limited number of users to evaluate the system and provide 
+their feedback before the complete deployment is carried out.
+
+
+Ques.96. What is dev-box Testing?
+Ans. In dev-box testing, a tester performs testing on the developer’s system to verify if the major functionalities of the 
+application are stable and ready for testing.
+
+
+Ques.97. What is mutation testing?
+Ans. Mutation testing is a type of white box testing in which the source code of the application is mutated to cause 
+some defects in its working. After that, the test scripts are executed to check for their correctness by verifying the 
+failures caused by the mutant code.
+
+
+Ques.98. What is the requirement traceability matrix(RTM)?
+Ans. In software testing, a requirement traceability matrix is a table that relates the high-level requirements with 
+either detailed requirements, test plans, or test cases. RTM helps in ensuring 100% test coverage.
+
+
+Ques.99. What is cyclomatic complexity?
+Ans. Cyclomatic complexity is the measure of the number of independent paths in an application or program. 
+This metric provides an indication of the amount of effort required to test complete functionality. It can be defined 
+by the expression –
+L – N + 2P, where:
+L is the number of edges in the graph
+N is the number of nodes
+P is the number of disconnected parts
+
+
+Ques.100. What are the entry criteria in software testing?
+Ans. A set of prerequisites that are required to kick-off the testing activity and that includes Test environment, 
+Test tool, Test Data, database connectivity, and many more.
+=================================================================================
+
+Ques.101. What is exit criteria in software testing?
+Ans. An exit criteria is a formal set of conditions that specify the agreed-upon features or state of the application in 
+order to mark the completion of the process or product.
+
+
+Ques.102. What is the difference between testing and debugging?
+Ans. Testing is primarily performed by the testing team in order to find the defects in the system. Whereas, 
+debugging is an activity performed by the development team. In debugging the cause of the defect is located and fixed.
+ Thus removing the defect and preventing any future occurrence of the defect as well.
+Another difference between the two is – testing can be done without any internal knowledge of software architecture.
+ Whereas debugging requires knowledge of software architecture and coding.
+
+
+Ques.103. Explain the Agile methodology?
+Ans. The agile methodology of software development is based on an iterative and incremental approach. 
+In this model, the application is broken down into smaller builds on which different cross-functional teamwork 
+together providing rapid delivery along with adapting to changing needs at the same time.
+
+
+Ques.104. What is scrum?
+Ans. A scrum is a process for implementing Agile methodology. In scrum, time is divided into sprints and on 
+completion of sprints, a deliverable is shipped.
+
+
+Ques.105. What are the different roles in scrum?
+Ans. The different roles in scrum are –
+Product Owner – The product owner owns the whole development of the product, assigns tasks to the team and 
+acts as an interface between the scrum team(development team) and the stakeholders.
+Scrum Master – The scrum master monitors that scrum rules get followed in the team and conducts scrum meetings.
+Scrum Team – A scrum team participate in the scrum meetings and perform the tasks assigned.
+
+Ques.106. What is a scrum meeting?
+Ans. A scrum meeting is a daily meeting in the scrum process. This meeting is conducted by scrum master and 
+update of the previous day’s work along with the next day’s task and context is defined in this meeting.
+
+
+Ques.107. Explain TDD (Test Driven Development).
+Ans. Test-Driven Development is a software development methodology in which the development of the software is 
+driven by test cases created for the functionality to be implemented. In TDD, first, the test cases are created and then 
+code to pass the tests is written. Later the code is refactored as per the standards.
+
+
+Ques.108. What is the difference between Latent and Masked Defects?
+Ans. A latent defect is an unidentified defect present in the current release but is not visible because the conditions in 
+which the defect could be found have never met. These types of defects occur only when a particular event gets 
+triggered which was concealing their presence.
+Whereas a masked defect is an existing defect that has not yet caused any failure because another error has masked 
+it or prevented it from getting discovered.
+
+
+Ques.109. What is the PDCA cycle in software testing?
+Ans.  PDCA cycle is a key for continuous process improvement in software development. It includes the following 4 
+steps-
+Plan – Plan the objectives, goals, initiatives which help to reach customer satisfaction.
+Do – It implements the plan into action. To serve the customer with better quality and satisfaction it is necessary to 
+have a good plan to execute.
+Check – To check the progress of your plan which has been implemented. The result will show how accurate the 
+planning had been done.
+Act – Acting upon the results to do further improvement which helps in achieving the planned goals.
+
+Ques.110. What is Defect Cascading?
+And. Defect cascading is the triggering of a defect by another defect. It happens when a defect is not caught by the 
+testing team and it gives rise to another defect.
+=================================================================================
+
+Ques.111. What is a test metric?
+Ans.  Test Metric is a quantitative analysis that helps in monitoring the progress of a software project. Every project 
+has its own timeline so to ensure the delivery of the project on time requires setting deliverables at different intervals 
+and this aspect of measuring the progress is provided by test metrics.
+
+
+Ques.112. What is Context-driven testing?
+Ans. Context-driven testing is the type of testing that involves adopting the test practices, methodologies and at times 
+customizing them based on the context of the project.
+=================================================================================
+
+
+
+Basic Interview Questions
+
+1. What do you understand by software testing?
+Software testing is a validation process which confirms that a system works as per the business requirements. 
+It qualifies a system on various aspects such as usability, accuracy, completeness, efficiency, etc. ANSI/IEEE 1059 
+is the global standard that defines the basic principles of testing.
+
+2. When should you stop the testing process?
+The testing activity ends when the testing team completes the following milestones.
+Test case execution
+The successful completion of a full test cycle after the final bug fix marks the end of the testing phase.
+Testing deadline
+The end date of the validation stage also declares the closure of the validation if no critical or high-priority defects 
+remain in the system.
+Code Coverage(CC) ratio
+It is the amount of code concealed via automated tests. If the team achieves the intended level of code coverage (CC) 
+ratio, then it can choose to end the validation.
+Mean Time Between Failure (MTBF) rate
+Mean time between failure (MTBF) refers to the average amount of time that a device or product functions before 
+failing. This unit of measurement includes only operational time between failures and does not include repair times, 
+assuming the item is repaired and begins functioning again. MTBF figures are often used to project how likely a 
+single unit is to fail within a certain period of time
+
+3. What do verification and validation mean in software testing?
+In software testing, verification is a process to confirm that product development is taking place as per the 
+specifications and using the standard development procedures. The process comprises the following activities:
+Inspections
+Reviews
+Walk-throughs
+Demos
+Validation is a means to confirm that the developed product doesn’t have any bugs and is working as expected. 
+It comprises the following activities:
+Functional testing
+Non-functional testing
+
+4. What is static testing? When does it start and what does it cover?
+Static testing is a white-box testing technique that directs developers to verify their code with the help of a checklist 
+to find errors in it. Developers can start the static testing without actually finalizing the application or program. 
+Static testing is more cost-effective than dynamic testing as it more areas than dynamic testing in a shorter time.
+
+5. Define Black-box testing.
+It is a standard software testing approach that requires testers to assess the functionality of the software as per the
+ business requirements. The software is treated as a black box and validated as per the end user’s point of view.
+
+6. What is a test plan and what does it include?
+A test plan stores all possible testing activities to ensure a quality product. It gathers data from the product description,
+requirement, and use case documents.
+The test plan document includes the following:
+Testing objectives
+Test scope
+Testing the frame
+Environment
+Reason for testing
+Criteria for entrance and exit
+Deliverables
+Risk factors
+
+7. What is meant by test coverage?
+Test coverage is a quality metric to represent the amount (in percentage) of testing completed for a product. 
+It is relevant for both functional and non-functional testing activities. This metric is used to add missing test cases.
+
+8. Is it possible to achieve 100% testing coverage? How would you ensure it?
+It’s considered not possible to perform 100% testing of any product. But you can follow the below steps to come 
+closer.
+Set a hard limit on the following factors:
+Percentage of test cases passed
+Number of bugs found
+Set a red flag if:
+Test budget is depleted
+Deadlines are breached
+Set a green flag if:
+The entire functionality gets covered in test cases
+All critical and major bugs must have a ‘CLOSED’ status
+
+9. What are unit testing and integration testing?
+Unit testing has many names such as module testing or component testing.
+Many times, it is the developers who test individual units or modules to check if they are working correctly.
+Whereas, integration testing validates how well two or more units of software interact with each other.
+There are three ways to validate integration:
+Big Bang approach
+Top-down approach
+Bottom-up approach
+
+10. Can we do system testing at any stage?
+No. System testing should start only if all modules are in place and they work correctly. However, it should be 
+performed before UAT (user acceptance testing).
+===============================================================================
+
+11. Mention the different types of software testing.
+Various testing types used by manual testers are as follows:
+Unit testing
+Integration testing
+Regression testing
+Shakeout testing
+Smoke testing
+Functional testing
+Performance testing
+Load testing
+Stress testing
+Endurance testing
+White-box and Black-box testing
+Alpha and Beta testing
+System testing
+Career Transition
+
+12. What is the difference between a test driver and a test stub?
+The test driver is a section of code that calls a software component under test. It is useful in testing that follows 
+the bottom-up approach.
+The test stub is a dummy program that integrates with an application to complete its functionality. It is relevant for 
+testing that uses the top-down approach.
+For example:
+Let’s assume a scenario where we have to test the interface between Modules A and B. We have developed only 
+Module A. Here, we can test Module A if we have the real Module B or a dummy module for it. In this case, 
+we call Module B as the test stub.
+Now, Module B can’t send or receive data directly from Module A. In such a scenario, we’ve to move data from one 
+module to another using some external features called test driver.
+
+
+13. What is agile testing and why is it important?
+Agile testing is a software testing process that evaluates software from the customers’ point of view. It is favorable 
+as it does not require the development team to complete coding for starting QA. Instead, both coding and testing go 
+hand in hand. However, it may require continuous customer interaction.
+
+14. What do you know about data flow testing?
+It is one of the white-box testing techniques.
+Data flow testing emphasizes for designing test cases that cover control flow paths around variable definitions 
+and their uses in the modules. It expects test cases to have the following attributes:
+The input to the module
+The control flow path for testing
+A pair of an appropriate variable definition and its use
+The expected outcome of the test case
+
+15. What is the purpose of the end-to-end testing?
+End-to-end testing is a testing strategy to execute tests that cover every possible flow of an application from its start 
+to finish. The objective of performing end-to-end tests is to discover software dependencies and to assert that the 
+correct input is getting passed between various software modules and sub-systems.
+
+Intermediate Interview Questions
+
+16. The probability that a server-class application hosted on the cloud is up and running for six long months 
+without crashing is 99.99 percentage. To analyze this type of a scenario, what test you will perform?
+Reliability testing
+
+17. What will you do when a bug turns up during testing?
+When a bug occurs, we can follow the below steps.
+We can run more tests to make sure that the problem has a clear description.
+We can also run a few more tests to ensure that the same problem doesn’t exist with different inputs.
+Once we are certain of the full scope of the bug, we can add details and report it.
+
+18. Why is it impossible to test a program thoroughly?
+Here are the two principal reasons that make it impossible to test a program entirely.
+Software specifications can be subjective and can lead to different interpretations.
+A software program may require too many inputs, outputs, and path combinations.
+
+19. How do you test a product if the requirements are yet to be freezed?
+If the required specifications are not available for a product, then a test plan can be created based on the 
+assumptions made about the product. But we should get all assumptions well-documented in the test plan.
+
+20. If a product is in the production stage and one of its modules gets updated, then is it necessary to ret
+It is suggested to perform a regression testing and run tests for all the other modules as well. Finally, the QA 
+should also carry out a system testing.
+=================================================================================
+
+21. How will you overcome the challenges faced due to the unavailability of proper documentation for testing?
+If the standard documents like System Requirement Specification or Feature Description Document are not available,
+then QAs may have to rely on the following references, if available.
+Screenshots
+A previous version of the application
+Wireframes
+Another reliable way is to have discussions with the developer and the business analyst. It helps in solving the 
+doubts, and it opens a channel for bringing clarity on the requirements. Also, the emails exchanged could be useful 
+as a testing reference.
+Smoke testing is yet another option that would help verify the main functionality of the application. It would reveal 
+some very basic bugs in the application. If none of these work, then we can just test the application from our previous 
+experiences.
+
+22. Is there any difference between retesting and regression testing?
+Possible differences between retesting and regression testing are as follows:
+We perform retesting to verify the defect fixes. But, the regression testing assures that the bug fix does not break 
+other parts of the application.
+Regression test cases verify the functionality of some or all modules.
+Regression testing ensures the re-execution of passed test cases. Whereas, retesting involves the execution of test 
+cases that are in a failed state.
+Retesting has a higher priority over regression. But in some cases, both get executed in parallel.
+
+23. As per your understanding, list down the key challenges of software testing.
+Following are some of the key challenges of software testing:
+The lack of availability of standard documents to understand the application
+Lack of skilled testers
+Understanding the requirements: Testers require good listening and understanding capabilities to be able to 
+communicate with the customers the application requirements.
+The decision-making ability to analyze when to stop testing
+Ability to work under time constraints
+Ability to decide which tests to execute first
+Testing the entire application using an optimized number of test cases
+
+24. What are the different types of functional testing?
+Functional testing covers the following types of validation techniques:
+Unit testing
+Smoke testing
+UAT
+Sanity testing
+Interface testing
+Integration testing
+System testing
+Regression testing
+
+25. What are functional test cases and non-functional test cases?
+Functional testing: It is testing the ‘functionality’ of a software or an application under test. It tests the behavior 
+of the software under test. Based on the requirement of the client, a document called a software specification or 
+requirement specification is used as a guide to test the application.
+Non-functional testing: In software terms, when an application works as per the user’s expectation, smoothly and 
+efficiently under any condition, then it is stated as a reliable application. Based on quality, it is very critical to test 
+these parameters. This type of testing is called non-functional testing.
+
+26. What do you understand by STLC?
+Software testing life cycle (STLC) proposes the test execution in a planned and systematic manner. In the STLC 
+model, many activities occur to improve the quality of the product.
+The STLC model lays down the following steps:
+Requirement Analysis
+Test Planning
+Test Case Development
+Environment Setup
+Test Execution
+Test Cycle Closure
+
+27. In software testing, what does a fault mean?
+Fault is a condition that makes the software fail to execute while performing the considered function.
+
+
+28. Difference between Bug, Defect, and Error.
+A slip in coding is indicated as an error. The error spotted by a manual tester becomes a defect. The defect 
+which the development team admits is known as a bug. If a built code misses on the requirements, then it is a 
+functional failure.
+
+29. How do severity and priority relate to each other?
+Severity: It represents the gravity/depth of a bug. It describes the application point of view.
+Priority: It specifies which bug should get fixed first. It defines the user’s point of view.
+
+30. List the different types of severity.
+The criticality of a bug can be low, medium, or high depending on the context.
+User interface defects – Low
+Boundary related defects – Medium
+Error handling defects – Medium
+Calculation defects – High
+Misinterpreted data – High
+Hardware failures – High
+Compatibility issues – High
+Control flow defects – High
+Load conditions – High
+=================================================================================
+Advanced Interview Questions
+
+31. What do you mean by defect detection percentage in software testing?
+Defect detection percentage (DDP) is a type of testing metric. It indicates the effectiveness of a testing process by 
+measuring the ratio of defects discovered before the release and reported after the release by customers.
+
+For example, let’s say, the QA has detected 70 defects during the testing cycle and the customer reported 20 more 
+after the release. Then, DDP would be: 70/(70 + 20) = 72.1%
+
+32. What does defect removal efficiency mean in software testing?
+Defect removal efficiency (DRE) is one of the testing metrics. It is an indicator of the efficiency of the development 
+team to fix issues before the release.
+It gets measured as the ratio of defects fixed to total the number of issues discovered.
+For example, let’s say, there were 75 defects discovered during the test cycle while 62 of them got fixed by the 
+development team at the time of measurement. The DRE would be 62/75 = 82.6%
+
+Go through the Manual Testing Training to get clear understanding of Weak AI and Strong AI.
+
+33. What is the average age of a defect in software testing?
+Defect age is the time elapsed between the day the tester discovered a defect and the day the developer got it fixed.
+While estimating the age of a defect, consider the following points:
+The day of birth of a defect is the day it got assigned and accepted by the development team.
+The issues which got dropped are out of the scope.
+Age can be both in hours or days.
+The end time is the day the defect got verified and closed, not just the day it got fixed by the development team.
+
+34. How do you perform automated testing in your environment?
+Automation testing is a process of executing tests automatically. It reduces the human intervention to a great extent. 
+We use different test automation tools like QTP, Selenium, and WinRunner. Testing tools help in speeding up the 
+testing tasks. These tools allow you to create test scripts to verify the application automatically and also to generate 
+the test reports.
+
+35. Is there any difference between quality assurance, quality control, and software testing. If so, what is it?
+Quality Assurance (QA) refers to the planned and systematic way of monitoring the quality of the process which is 
+followed to produce a quality product. QA tracks the test reports and modifies the process to meet the expectation.
+Quality Control (QC) is relevant to the quality of the product. QC not only finds the defects but suggests 
+improvements too. Thus, a process that is set by QA is implemented by QC. QC is the responsibility of the testing 
+team.
+
+Software testing is the process of ensuring that the product which is developed by developers meets the users’ 
+requirements. The aim of performing testing is to find bugs and make sure that they get fixed. Thus, it helps to 
+maintain the quality of the product to be delivered to the customer.
+
+36. Tell me about some of the essential qualities an experienced QA or Test Lead must possess.
+A QA or Test Lead should have the following qualities:
+Well-versed in software testing processes
+Ability to accelerate teamwork to increase productivity
+Improve coordination between QA and Dev engineers
+Provide ideas to refine QA processes
+Skill to conduct RCA meetings and draw conclusions
+Excellent written and interpersonal communication skills
+Ability to learn fast and to groom the team members
+
+37. What is a Silk Test and why should you use it?
+Here are some facts about the Silk Test tool:
+Skill tool is developed for performing regression and functionality testing of an application.
+It is used when we are testing Window-based, Java, web, and the traditional client/server applications.
+Silk Test helps in preparing the test plan and managing it to provide direct accessing of the database and validation
+ of the field.
+
+Become a Selenium Automation Testing Expert
+
+38. On the basis of which factors you would consider choosing automated testing over manual testing?
+Choosing automated testing over manual testing depends on the following factors:
+Tests require periodic execution.
+Tests include repetitive steps.
+Tests execute in a standard runtime environment.
+Automation is expected to take less time.
+Automation is increasing reusability.
+Automation reports are available for every execution.
+Small releases like service packs include a minor bug fix. In such cases, executing the regression test is sufficient 
+for validation.
+
+39. Tell me the key elements to consider while writing a bug report.
+An ideal bug report should consist of the following key points:
+A unique ID
+Defect description: A short description of the bug
+Steps to reproduce: They include the detailed test steps to emulate the issue. They also provide the test data and the 
+time when the error has occurred
+Environment: Add any system settings that could help in reproducing the issue
+Module/section of the application in which the error has occurred
+Severity
+Screenshots
+Responsible QA: This person is a point of contact in case you want to follow-up regarding this issue
+
+40. Is there any difference between bug leakage and bug release?
+Bug leakage: Bug leakage is something, when the bug is discovered by the end user/customer and missed by the 
+testing team to detect while testing the software. It is a defect that exists in the application and not detected by the 
+tester, which is eventually found by the customer/end user.
+Bug release: A bug release is when a particular version of the software is released with a set of known bug(s). 
+These bugs are usually of low severity/priority. It is done when a software company can afford the existence of bugs 
+in the released software but not the time/cost for fixing it in that particular version.
+=================================================================================
+
+41. What is the difference between performance testing and monkey testing?
+Performance testing checks the speed, scalability, and/or stability characteristics of a system. Performance is 
+identified with achieving response time, throughput, and resource-utilization levels that meet the performance 
+objectives for a project or a product.
+Monkey testing is a technique in software testing where the user tests the application by providing random inputs, 
+checking the behavior of the application (or trying to crash the application).
+
+42. What is exploratory testing?
+Exploratory testing is an approach to software testing, wherein testers learn simultaneously about the test design 
+and test execution. In other words, it is a hands-on approach where testers are involved more in the test execution 
+part than in planning.
+
+43. What is meant by system testing?
+System testing is a black-box testing technique, used on a complete integrated system, where it will test the system 
+compliance as per the requirement.
+
+Become a Test Architect
+
+44. What are the benefits of test reports?
+Test reports will help us find the current status of a project and its quality. This can help stakeholders and customers 
+take necessary actions. The complete documentation of test reports will help analyze different phases of the project.
+
+45. What is meant by latent defect?
+A latent defect is a hidden defect in an application/software, which cannot be identified by a user. However, this will 
+not cause any failure to the application because the conditions will never be met.
+
+Functional testing types:---
+Unit testing
+Component testing
+Smoke testing
+Sanity testing
+Regression testing
+Integration testing
+API testing
+UI testing
+System testing
+White-box testing
+Black-box testing
+Acceptance testing
+Alpha testing
+Beta testing
+Production testing
+
+Unit testing. Before you can test an entire software program, make sure the individual parts work properly on their own. 
+Unit testing validates the function of a unit, ensuring that the inputs (one to a few) result in the lone desired output. 
+This testing type provides the foundation for more complex integrated software. When done right, unit testing drives higher 
+quality application code and speeds up the development process. Developers often execute unit tests through test automation.
+
+Unit testing example: A developer builds a calculator app. A unit test would check whether the user can input two numbers 
+and receive an accurate sum. Separate unit tests would validate other calculator functionality, such as subtraction, multiplication 
+and division.
+
+Component testing. Also called module testing, component testing checks individual parts of an application. Similar to unit testing, 
+component testing assesses a part of the software in isolation from the broader system. The difference between unit testing and 
+component testing is that the former is done by developers in a white-box format to verify that program modules execute, while 
+the latter is done by testers in a black-box format to validate individual objects or parts of the software. If other software 
+components rely on the component under test, the QA professional might use a stub and driver to simulate interactions between
+ those dependent components.
+
+Component testing example: A banking mobile app includes an option to schedule an appointment with a banking professional. 
+The stub provides a simulated user profile, and the driver provides a simulated schedule of available appointment times. 
+In this functional testing example, the middle component — the one under test — finds the user’s location via GPS and displays 
+local banking centers from which they can choose. By testing this component in isolation, the tester can ensure that the geolocation 
+service works correctly and displays an accurate list of nearby locations.
+
+Smoke testing. Smoke testing, a type of acceptance testing, provides an initial check that a new software build and its critical 
+functionality are stable. If the smoke tests pass, the build can undergo further testing. Smoke testing, also called build verification 
+testing, often checks whether new or critical functionality meets its objective. If the tests don’t pass, as the saying goes, “where 
+there’s smoke, there’s fire,” and additional dev work is required.
+
+Smoke testing example: A web app for an insurance company adds a claims status page. Testers would apply smoke tests to verify 
+that the existing build works on a fundamental level, such as whether a user can successfully log in, navigate to the claims status 
+page and retrieve the status of a specific claim without the app crashing or malfunctioning.
+
+Sanity testing. A type of regression testing, QA professionals perform sanity testing on new versions of stable builds to validate 
+either new functionality or bug fixes. While similar to smoke testing in that both provide a gate check that a build is ready for more
+ testing, sanity testing is unscripted and specifically targets the area that has undergone a code change.
+
+Sanity testing example: A web page for a telehealth provider returns a 404 error for its mental health page. The developers fix the 
+issue, then commit the build for testing. The QA professional performs a sanity check to determine whether the basic functionality 
+and navigation for that specific page work as intended.
+
+Regression testing. Just because functional tests pass once doesn’t mean they’ll always pass. When developers commit new code 
+or change a feature, you run regression tests to make sure the software still functions as expected. Regression testing helps 
+maintain a stable product while changes are made to it. Regression tests are often automated.
+
+Regression testing example: A clothing retailer adds the ability to pay with customer rewards points on their mobile app. Testers 
+might perform regression tests on other existing functionality, such as the ability to pay with credit cards and gift cards, to make 
+sure all forms of payment work correctly.
+
+Integration testing. Integration testing is often done in concert with unit testing. Through integration testing, QA professionals 
+verify that individual modules of code work together properly as a group. Many modern applications run on microservices, 
+self-contained applications that are designed to handle a specific task. These microservices must be able to communicate with 
+each other, or the application won’t work as intended. Through integration testing, testers ensure these components operate and 
+communicate together seamlessly.
+
+Integration testing example: A credit card company includes a page where a customer can request a credit increase, which is a 
+separate code base from login functionality. Testers might perform integration tests to make sure the system remembers the user 
+after they navigate to the credit increase page, and again after a successful request.
+
+API testing. Application programming interfaces connect different applications or systems, and they are growing in popularity as
+ consumers expect apps to interoperate. With API testing, testers validate that API connections and responses function as intended,
+ including how they handle data and user permissions.
+
+API testing example: A travel booking site might pull pricing data from an airline company’s database via APIs. Through API testing,
+ QA professionals can verify that the correct data type is returned in the local currency and responsive to changes in date and 
+location.
+
+UI testing. With UI testing, QA professionals interact with the graphical interface of a software program. This includes testing of
+ UI controls like buttons, menus and text input to ensure that the experience flow and features chosen are optimal for the user 
+experience.
+
+UI testing example: A wearables maker creates a mobile app for product setup and maintenance. As part of UI testing, the team 
+would make sure that required fields function as expected, images display correctly and maintenance information appears in the 
+app dashboard after use.
+
+System testing. With system testing, QA professionals test the software in its entirety, as a complete product. With this type of 
+functional testing, testers validate the complete and integrated software package to make sure it meets requirements. Where 
+necessary, testers can provide feedback on the functionality and performance of the app or website without prior knowledge 
+of how it was programmed. This helps teams develop test cases to be used moving forward. System testing is also referred to 
+as end-to-end testing.
+
+System testing example: An automobile manufacturer produces an in-car entertainment system that gives users functionality for
+ voice control, GPS, a video player, Bluetooth connectivity, mobile phone pairing, touch-screen support and climate control. 
+Testers would assess all of these features individually, but they must also test them as a complete system to ensure interoperability
+and a good user experience.
+
+White-box testing. When the software’s internal infrastructure, code and design are visible to the developer or tester, that refers 
+to white-box testing. This approach incorporates various functional testing types, including unit, integration and system testing. 
+In a white-box testing approach, the organization tests several aspects of the software, such as predefined inputs and expected 
+outputs, as well as decision branches, loops and statements in the code.
+
+White box testing example: In this functional testing example, consider an end-to-end test for a customer who adds payment 
+information to a retailer’s app. Developers and testers would conduct tests in a white-box format to ensure that sensitive data, 
+such as a credit card number, is stored in a PCI-compliant manner. White-box tests might also ensure that purchase information 
+flows to a machine learning algorithm to generate predictions, the purchase correctly generates rewards points, and the inventory 
+system deducts the items from the stock count.
+
+Black-box testing. Contrary to white-box testing, black-box testing involves testing against a system where the internal code, 
+paths and infrastructure are not visible. Thus, testers use this method to validate expected outputs against specific inputs. 
+Any time where a QA professional doesn’t look into the code before testing can be considered black box. With black-box testing, 
+the organization can test the software in the same way a customer would experience it. Black-box testing encompasses a variety
+ of non-functional and functional testing types, depending on the objective of the test.
+
+Black box testing example: On a streaming television platform, the tester toggles the search functionality and executes a search 
+for a specific actor. The tester then verifies that the search feature returns logical (expected) outputs, including television shows 
+that the actor appeared in, or suggested titles similar to that actor’s well-known works.
+
+Acceptance testing. The purpose of acceptance testing is purely to ensure that the end user can achieve the goals set in the business
+ requirements. Rather than focus on functionality of specific features, acceptance testing involves reviewing the feature-complete 
+application flow and end-to-end experience. User acceptance testing (UAT) and beta testing, subsets of acceptance testing, involve 
+end users to conduct their analysis of the finished product. From there, the organization can evaluate that feedback and make 
+changes.
+
+Acceptance testing example: A software company releases a product that enables its users to manage big data. Upon release of a
+new version of the software, a group of that company’s most significant users conducts user acceptance testing to determine 
+whether the new version meets their primary needs and how the product can be improved.
+
+Alpha testing. Another subset of acceptance testing, alpha testing uses internal team members to evaluate the product. 
+These team members should be knowledgeable of the project but not directly involved in its development or testing. 
+Where some builds might still be somewhat unstable, alpha testing provides an immediate subset of testers to root out major 
+bugs before the software is seen by external users.
+
+Alpha testing example: In this functional testing example, a casino games provider releases a new version of its app that includes
+ video poker. The organization compiles a cross-functional group of internal users that test whether the app functions correctly
+ on their devices and how the user experience can improve.
+
+Beta testing. After the internal team tests the product and fixes bugs, beta testing occurs with a select group of end users. 
+Beta testing serves as a soft launch, enabling you to get feedback from real users who have no prior knowledge of the app. 
+Beta testing enables you to gather feedback from unbiased users who may interact with the product differently than you intended,
+perhaps identifying critical unknown bugs before release to a wide user base.
+
+Beta testing example: A restaurant chain releases a new mobile order and pickup system. Before the company releases the 
+functionality to all of its mobile app users, it tests the app with a small number of dedicated customers and provides them with
+ rewards for participating.
+
+Production testing. Once the product goes public, it is in a live production environment where any user can interact with it in any 
+way — you no longer can control everything from the testing environment to the number of people using the product. 
+Production testing is part of continuous testing and shift-right testing, which attempts to discover and triage user-reported defects
+as quickly as possible. By testing in production, the organization can test beyond the scripted test cases in a varied environment. 
+With production testing, the organization can confirm product functionality and stability.
+
+Production testing example: A fitness equipment manufacturer can monitor user-reported defects and device metrics to make sure 
+its internet-connected treadmills, elliptical and stair-climbing machines function as they should — upon delivery and continuously.
+=========================================================================================
+
+
+What is the software testing life cycle?
+The software testing life cycle is a sequence of tasks designed to understand the state of a system and make recommendations 
+for improvement. 
+The STLC involves strategizing, planning, executing and completing test cycles.
+
+Traditionally, QA testing occurred shortly before product release as a way to ensure digital products don’t contain defects
+ that negatively affect core functionality. However, as digital systems became more complex and businesses released batches 
+of software and apps more often, the STLC evolved. In many organizations, testing no longer waits until a product is fully 
+developed. Over the last couple of decades, some organizations have included STLC phases before and during development
+ to maximize resources, employing some of the following tactics:
+
+Test automation
+Test-driven development
+Crowdtesting
+Shift-left testing
+Shift-right testing
+
+An effective STLC produces more comprehensive and valid results than a traditional post-development testing stage, 
+helping organizations make changes that ultimately drive customer satisfaction and, thus, more revenue. 
+The STLC process should be less a pre-release obligation than an effort to discover key insights that will benefit the business
+ over the short- and long-term.
+
+6 key STLC phases
+The software testing life cycle provides confidence in a software release. The STLC delivers that confidence through a 
+series of tasks that take validation through ideation to design and execution. Each STLC phase is useful in its own way to
+ achieve high-quality software releases. Likewise, each part of the STLC process comes with its own goals and deliverables, 
+all intended to catch defects and optimize test coverage.
+
+Let’s dig into these sequential phases of the software testing life cycle:
+
+Requirement analysis
+Test planning
+Test case design and development
+Test environment setup
+Test execution
+Test cycle closure
+
+1. Requirement analysis
+
+Most development initiatives begin with software requirements that specify what the business expects from the project.
+ Software requirements often include high-level business needs, architectural requirements that detail how the feature will
+be designed and supported, and detailed system requirements from which developers build the product. System requirements
+ include functional and non-functional specifications, both of which present opportunities to test and validate.
+
+In this STLC phase, testers work both within their own teams and cross-functionally to contextualize how they will test the
+ software. Requirement analysis often includes brainstorming sessions, identifying blind spots or unclear areas in the requirements,
+ and prioritizing certain assessments.
+
+When in doubt or lacking requirements documentation, the QA team will question the engineering or business side to clarify and 
+calcify a testing strategy.
+
+2. Test planning
+
+The second STLC phase is important, as it guides much of the work to follow. Test planning takes the insights found during 
+requirements or product analysis and turns them into a documented QA strategy.
+
+The test team leadership determines what resources and efforts will evaluate the release. The resulting test plan documentation 
+both informs testers and other departments how the testing work will commence, keeping everyone on the same page. 
+This plan is especially helpful if other members of the organization will take part in testing and bug remediation, such as 
+developers executing unit tests and writing hotfixes.
+
+The test plan spells out several details of the QA work to be done, including the scope, objectives, types of functional and 
+non-functional tests (both automated and manual), and details for the test environments. Once these details are determined, 
+test management sets roles and timelines for the work. Finally, the testing team can determine what deliverables it will provide 
+upon completion of the STLC phases.
+
+3. Test case design and development
+
+With the test plan in place, testers can begin to write and create detailed test cases. In this STLC phase, the QA team fleshes 
+out the details of the structured tests they will run, including any test data they will need to facilitate those tests. While tests 
+must ultimately validate the areas defined by requirements, testers can exert their skills and creativity in how they achieve this task.
+
+When conceptualizing test cases, the tester’s goal should be to validate functionality within the allotted time and scope, 
+especially core functionality. Test cases should be simple and well understood for any member of the team, but also unique 
+from other test cases. Test cases should aim to achieve full coverage of the requirements in the specifications document — 
+a traceability matrix can help track coverage. It’s important that test cases be identifiable and repeatable, as developers will 
+add new functionality to the product over time, requiring tests to run again. They must also not alter the test environment for
+ future tests, especially when validating configurations.
+
+Test cases might also require maintenance or updates over time to validate both new and existing functionality. This work also
+ occurs at this STLC stage.
+
+Once test cases are ready, a test team lead or peer can review them. They might also review and update automated test scripts 
+at this STLC stage. Ultimately, the team prioritizes and organizes these test cases into test suites that run later.
+
+4. Test environment setup
+
+The test environment provides the setting where the actual testing occurs. This is a crucial software testing life cycle phase, 
+
+Once ready, testers establish the parameters for the test environment, which include the hardware, software, test data, frameworks, 
+configurations and network. In this STLC phase, testers adjust these environment parameters depending on what the test case
+ requires. For example, the majority of a product’s users might be on an Android device, use a certain version of a Chrome browser 
+and have a certain amount of processing power on those devices — these are parameters the test environment would include.
+
+Smoke tests within these test environments provide a very early and rudimentary check that the software is ready for more 
+comprehensive testing. These smoke tests against the builds are part of the deliverable in this STLC phase.
+
+5. Test execution
+
+Next in the software testing life cycle, it’s time to fully test the product. At this STLC stage, testers execute all of the test cases, 
+or as many as is possible within the allotted time. QA professionals and automated scripts execute a number of functional and 
+non-functional tests.
+
+Here in the STLC, testers will identify and report detailed bugs that arise from test case execution and log the system’s performance
+ compared to its requirements. As developers make fixes, testers often retest the product to make sure new defects don’t materialize. 
+With all of these tests piling up in the test execution STLC phase, it’s important to make use of test automation where possible to
+ achieve the test coverage and velocity you need.
+
+6. Test cycle closure
+
+The final STLC phase is test cycle closure. In this stage, the testing team provides a test closure report, which summarizes and
+ communicates its findings with the rest of the team. This report typically includes summaries of the testing work and results, 
+an assessment of the testing and the manager’s approval.
+
+During the test cycle closure, the testing team checks its deliverables, which include details relevant to the testing work, such
+ as the test strategy, test case documents, automated test scripts and test results. The team will then complete and close incident 
+reports, which detail unusual or unexpected behavior that the test team observes during testing. The team must also archive the
+ resources it used during testing, such as scripts, tools and environments, for later use.
+
+From there, the organization plans the product for support and release, which often includes acceptance and feedback from 
+customer representatives.
+
+Communication is key in this STLC phase, as additional perspectives might uncover a quality, cost or coverage issue that the 
+rest of the group missed. These discussions can yield additional analysis or inform how to improve QA work in the future.
+
+
+
+Different Types of Software Testing
+#1) Alpha Testing
+#2) Acceptance Testing
+#3) Ad-hoc Testing
+#4) Accessibility Testing
+#5) Beta Testing
+#6) Back-end Testing
+#7) Browser Compatibility Testing
+#8) Backward Compatibility Testing
+#9) Black Box Testing
+#10) Boundary Value Testing
+#11) Branch Testing
+#12) Comparison Testing
+#13) Compatibility Testing
+#14) Component Testing
+#15) End-to-End Testing
+#16) Equivalence Partitioning
+#17) Example Testing
+#18) Exploratory Testing
+#20) Functional Testing
+#21) Graphical User Interface (GUI) Testing
+#22) Gorilla Testing
+#23) Happy Path Testing
+#24) Incremental Integration Testing
+#25) Install/Uninstall Testing
+#26) Integration Testing
+#27) Load Testing
+#28) Monkey Testing
+#29) Mutation Testing
+#30) Negative Testing
+#31) Non-Functional Testing
+#32) Performance Testing
+#33) Recovery Testing
+#34) Regression Testing
+#35) Risk-Based Testing (RBT)
+#36) Sanity Testing
+#37) Security Testing
+#38) Smoke Testing
+#39) Static Testing
+#40) Stress Testing
+#41) System Testing
+#42) Unit Testing
+#43) Usability Testing
+#44) Vulnerability Testing
+#45) Volume Testing
+#46) White Box Testing
+
+
+Different Types Of Software Testing
+Given below is a list of some common types of Software Testing:
+
+Functional Testing types include:
+
+Unit Testing
+Integration Testing
+System Testing
+Sanity Testing
+Smoke Testing
+Interface Testing
+Regression Testing
+Beta/Acceptance Testing
+
+Non-functional Testing types include:
+
+Performance Testing
+Load Testing
+Stress Testing
+Volume Testing
+Security Testing
+Compatibility Testing
+Install Testing
+Recovery Testing
+Reliability Testing
+Usability Testing
+Compliance Testing
+Localization Testing
+
+
+
+#1) Alpha Testing
+It is the most commonly used testing in the Software industry. The objective of this testing is to identify 
+all possible issues or defects before releasing it into the market or to the user.
+Alpha Testing will be carried out at the end of the software development phase but before the Beta Testing. 
+Still, minor design changes may be made as a result of such testing.
+Alpha Testing will be conducted at the developer’s site. An in-house virtual user environment can be 
+created for this type of testing.
+
+#2) Acceptance Testing
+An Acceptance Test is performed by the client and it verifies whether the end to end flow of the system 
+is as per the business requirements or not and if it is as per the needs of the end-user.
+Client accepts the software only when all the features and functionalities work as expected. This is the 
+last phase of testing, after which the software goes into production. This is also called User Acceptance Testing (UAT).
+
+#3) Ad-hoc Testing
+The name itself suggests that this testing is performed on an ad-hoc basis i.e., with no reference to the test case 
+and also without any plan or documentation in place for this type of testing.
+The objective of this testing is to find the defects and break the application by executing any flow of the 
+application or any random functionality.
+Ad-hoc Testing is an informal way of finding defects and can be performed by anyone in the project.
+ It is difficult to identify defects without a test case but sometimes it is possible that defects found during 
+ad-hoc testing might not have been identified using the existing test cases.
+
+#4) Accessibility Testing
+The aim of Accessibility Testing is to determine whether the software or application is accessible for disabled 
+people or not.
+Here, disability means deafness, color blindness, mentally disabled, blind, old age and other disabled groups. 
+Various checks are performed such as font size for visually disabled, color and contrast for color blindness, etc.
+
+#5) Beta Testing
+Beta Testing is a formal type of Software Testing which is carried out by the customer. It is performed in the 
+Real Environment before releasing the product to the market for the actual end-users.
+Beta Testing is carried out to ensure that there are no major failures in the software or product and it satisfies
+ the business requirements from an end-user perspective. Beta Testing is successful when the customer accepts
+ the software.
+Usually, this testing is typically done by the end-users or others. This is the final testing done before releasing
+ the application for commercial purposes. Usually, the Beta version of the software or product released is limited 
+to a certain number of users in a specific area.
+So the end-user actually uses the software and shares the feedback with the company. The company then takes
+ necessary action before releasing the software worldwide.
+
+#6) Back-end Testing
+Whenever an input or data is entered on the front-end application, it is stored in the database and the testing 
+of such database is known as Database Testing or Backend Testing.
+There are different databases like SQL Server, MySQL, and Oracle, etc. Database Testing involves testing of 
+table structure, schema, stored procedure, data structure and so on.
+In Back-end Testing, GUI is not involved, the testers are directly connected to the database with proper access 
+and testers can easily verify data by running a few queries on the database.
+There can be issues identified like data loss, deadlock, data corruption etc during this back-end testing and these
+ issues are critical to fix before the system goes live into the production environment
+
+#7) Browser Compatibility Testing
+This is a sub-type of Compatibility Testing (which is explained below) and is performed by the testing team.
+Browser Compatibility Testing is performed for web applications and ensures that the software can run with a
+ combination of different browsers and operating systems. This type of testing also validates whether a web 
+application runs on all versions of all browsers or not.
+
+#8) Backward Compatibility Testing
+It is a type of testing which validates whether the newly developed software or updated software works well 
+with the older version of the environment or not.
+Backward Compatibility Testing checks whether the new version of the software works properly with the file 
+format created by an older version of the software; it also works well with data tables, data files, and data structure 
+created by the older version of that software.
+If any of the software is updated then it should work well on top of the previous version of that software.
+
+#9) Black Box Testing
+Internal system design is not considered in this type of testing. Tests are based on the requirements and functionality.
+Detailed information about the advantages, disadvantages, and types of Black Box testing can be found here.
+
+#10) Boundary Value Testing
+This type of testing checks the behavior of the application at boundary level.
+Boundary Value Testing is performed to check if defects exist at boundary values. Boundary Value Testing is 
+used for testing a different range of numbers. There is an upper and lower boundary for each range and testing 
+is performed on these boundary values.
+If testing requires a test range of numbers from 1 to 500 then Boundary Value Testing is performed on values 
+at 0, 1, 2, 499, 500 and 501.
+
+#11) Branch Testing
+This is a type of White box Testing and is carried out during Unit Testing. Branch Testing, the name itself, 
+suggests that the code is tested thoroughly by traversing at every branch.
+
+#12) Comparison Testing
+Comparison of a product’s strengths and weaknesses with its previous versions or other similar products is
+ termed as Comparison Testing.
+
+#13) Compatibility Testing
+This is a testing type in which it validates how software behaves and runs in a different environment, 
+web servers, hardware, and network environment.
+Compatibility testing ensures that software can run on a different configuration, different databases, 
+different browsers, and their versions. Compatibility testing is performed by the testing team.
+
+#14) Component Testing
+This is mostly performed by developers after the completion of unit testing.
+Component Testing involves testing of multiple functionalities as a single code and its objective is to identify 
+if any defect exists after connecting those multiple functionalities with each other.
+
+#15) End-to-End Testing
+Similar to system testing, End-to-End Testing involves testing of a complete application environment in a 
+situation that mimics real-world use, such as interacting with a database, using network communications,
+ or interacting with other hardware, applications, or systems if appropriate.
+
+#16) Equivalence Partitioning
+It is a testing technique and a type of Black Box Testing. During this Equivalence Partitioning, a set of groups
+ are selected and a few values or numbers are picked up for testing. It is understood that all values from that 
+group generate the same output.
+The aim of this testing is to remove redundant test cases within a specific group which generate the same 
+output but not any defect.
+Suppose the application accepts values between -10 and +10, then using equivalence partitioning the values 
+picked for testing are zero, one positive value, and one negative value. So the Equivalence Partitioning for this 
+testing is  -10 to -1, 0, and 1 to 10.
+
+#17) Example Testing
+This means real-time testing. Example Testing includes real-time scenarios, it also involves scenarios based 
+on the experience of the testers.
+
+#18) Exploratory Testing
+Exploratory Testing is informal testing performed by the testing team. The objective of this testing is to explore 
+the application and look for defects that exist in the application.
+Sometimes it may happen that during this testing a major defect discovered can even cause a system failure.
+ During Exploratory Testing, it is advisable to keep a track of what flow you have tested and what activity you
+ did before the start of a specific flow.
+Exploratory Testing techniques are performed without documentation or test cases.
+
+#20) Functional Testing
+This type of testing ignores the internal parts and focuses only on the output to check if it is as per the 
+requirement or not.
+This is a black-box type testing that is geared towards the functional requirements of an application. 
+
+#21) Graphical User Interface (GUI) Testing
+The objective of this GUI Testing is to validate the GUI as per the business requirement. The expected GUI 
+of the application is mentioned in the Detailed Design Document and GUI mockup screens.
+GUI Testing includes the size of the buttons and input fields present on the screen, alignment of all text, 
+tables, and content in the tables.
+It also validates the menu of the application, after selecting different menu and menu items, it validates 
+that the page does not fluctuate and the alignment remains the same after hovering the mouse on the menu
+ or sub-menu.
+
+#22) Gorilla Testing
+Gorilla Testing is a testing type performed by a tester and sometimes by the developer as well.
+In Gorilla Testing, one module or the functionality in the module is tested thoroughly and heavily. 
+The objective of this testing is to check the robustness of the application.
+
+#23) Happy Path Testing
+The objective of Happy Path Testing is to test an application successfully on a positive flow.
+
+It does not look for negative or error conditions. The focus is only on valid and positive inputs through 
+which the application generates the expected output.
+
+#24) Incremental Integration Testing
+Incremental Integration Testing is a Bottom-up approach for testing i.e continuous testing of an application
+ when a new functionality is added.
+Application functionality and modules should be independent enough to test separately. This is done by 
+programmers or by testers.
+
+#25) Install/Uninstall Testing
+Installation and Uninstallation Testing is done on full, partial, or upgraded install/uninstall processes on
+ different operating systems under different hardware or software environments.
+
+#26) Integration Testing
+Testing of all integrated modules to verify the combined functionality after integration is termed as Integration Testing.
+Modules are typically code modules, individual applications, client and server applications on a network, etc.
+ This type of testing is especially relevant to the client/server and distributed systems.
+
+#27) Load Testing
+It is a type of Non-Functional Testing and the objective of Load Testing is to check how much load or 
+maximum workload a system can handle without any performance degradation.
+Load Testing helps to find the maximum capacity of the system under specific load and any issues that 
+cause software performance degradation. Load testing is performed using tools like JMeter, LoadRunner,
+ WebLoad, Silk performer, etc.
+
+#28) Monkey Testing
+Monkey Testing is carried out by a tester assuming that if the monkey uses the application then how random
+ input and values will be entered by the Monkey without any knowledge or understanding of the application.
+The objective of Monkey Testing is to check if an application or system gets crashed by providing random 
+input values/data. Monkey Testing is performed randomly and no test cases are scripted and it is not necessary
+ to be aware of the full functionality of the system.
+
+#29) Mutation Testing
+Mutation Testing is a type of white box testing in which the source code of one of the programs is changed and 
+verifies whether the existing test cases can identify these defects in the system.
+The change in the program source code is very minimal so it does not impact the entire application, only the 
+specific area having the impact and the related test cases should be able to identify those errors in the system.
+
+#30) Negative Testing
+Testers have the mindset of “attitude to break” and using Negative Testing they validate if the system or 
+application breaks.
+Negative Testing technique is performed using incorrect data, invalid data or input. It validates if the system 
+throws an error of invalid input and behaves as expected.
+
+#31) Non-Functional Testing
+This is the type of testing for which every organization has a separate team which is usually called a 
+Non-Functional Test (NFT) team or Performance team.
+Non-Functional Testing involves testing of non-functional requirements such as Load Testing, Stress Testing,
+ Security, Volume, Recovery Testing, etc. The objective of NFT testing is to ensure whether the response time 
+of software or application is quick enough as per the business requirement.
+It should not take much time to load any page or system and should be sustained during peak load.
+
+#32) Performance Testing
+This term is often used interchangeably with ‘stress’ and ‘load’ testing.
+Performance Testing is done to check whether the system meets the performance requirements. 
+Different performance and load tools are used to do this testing.
+
+#33) Recovery Testing
+It is a type of testing which validates how well the application or system recovers from crashes or disasters.
+Recovery Testing determines if the system is able to continue its operation after a disaster. Assume that the 
+application is receiving data through a network cable and suddenly that network cable has been unplugged.
+Sometime later, plug in the network cable; then the system should start receiving data from where it lost the
+ connection due to network cable being unplugged.
+
+#34) Regression Testing
+Testing an application as a whole for the modification of any module or functionality is termed as Regression Testing.
+It is difficult to cover all the systems in Regression Testing, so typically Automation Testing Tools are used for 
+these types of testing.
+
+#35) Risk-Based Testing (RBT)
+For Risk-Based Testing, the functionalities or requirements are tested based on their priority. Risk-Based Testing
+ includes testing of highly critical functionality, which has the highest impact on business and in which the 
+probability of failure is very high.
+Priority decisions are based on business needs, so once priority is set for all functionalities, then high priority 
+functionality or test cases are executed first followed by medium and then low priority functionalities.
+Low priority functionality may be tested or not tested based on the available time. Risk-Based Testing is carried
+ out if there is insufficient time available to test the entire software and the software needs to be implemented 
+on time without any delay.
+This approach is followed only by the discussion and approval of the client and senior management of the 
+organization.
+
+#36) Sanity Testing
+Sanity Testing is done to determine if a new software version is performing well enough to accept it for a 
+major testing effort or not.
+If an application is crashing for initial use then the system is not stable enough for further testing. Hence a
+ build or an application is assigned to fix it.
+
+#37) Security Testing
+It is a type of testing performed by a special team of testers. A system can be penetrated by any hacking method.
+Security Testing is done to check how the software, application or website is secure from internal and external threats.
+ This testing includes how much software is secure from malicious programs, viruses and how secure & strong 
+the authorization and authentication processes are.
+It also checks how software behaves for any hackers attack & malicious programs and how software is
+ maintained for data security after such a hacker attack.
+
+#38) Smoke Testing
+Whenever a new build is provided by the development team, then the Software Testing team validates the 
+build and ensures that no major issue exists.
+The testing team will ensure that the build is stable and a detailed level of testing will be carried out further. 
+Smoke Testing checks for no show stopper defects exist in the build which will prevent the testing team from 
+testing the application in detail.
+If the testers find that the major critical functionality is broken down at the initial stage itself then the testing team 
+can reject the build and inform accordingly to the development team. Smoke Testing is carried out to a detailed 
+level of any Functional or Regression Testing.
+
+#39) Static Testing
+Static Testing is a type of testing which is executed without any code. The execution will be performed on the 
+documentation during the testing phase.
+It involves reviews, walkthroughs, and inspection of the deliverables of the project. Static Testing does not 
+execute the code instead, the code syntax and naming conventions are checked.
+Static Testing is also applicable for test cases, test plans, and design documents. We need to perform static 
+testing with the testing team as the defects identified during this type of testing are cost-effective from a project
+ perspective.
+
+#40) Stress Testing
+This testing is done when a system is stressed beyond its specifications in order to check how and when it fails.
+This is performed under heavy load like putting large number beyond storage capacity, complex database queries, 
+continuous input to the system or database load.
+
+#41) System Testing
+Under System Testing technique, the entire system is tested as per the requirements. It is a Black-box type Testing
+ that is based on the overall requirement specifications and covers all the combined parts of the system.
+
+#42) Unit Testing
+Testing of an individual software component or module is termed as Unit Testing.
+It is typically done by the programmer and not by testers, as it requires detailed knowledge of the internal 
+program design and code. It may also require developing test driver modules or test harnesses.
+
+#43) Usability Testing
+Under Usability Testing, the User-Friendliness Check is done.
+The application flow is tested to see if a new user can understand the application easily or not. Proper help is
+ documented if a user gets stuck at any point. Basically, system navigation is checked in this testing.
+
+#44) Vulnerability Testing
+The testing, which involves identifying weaknesses in the software, hardware and the network, is known as 
+Vulnerability Testing. In malicious programs, the hacker can take control of the system, if it is vulnerable to 
+such kind of attacks, viruses, and worms.
+We need to check if those systems undergo Vulnerability Testing before production. It may identify critical 
+defects and flaws in security.
+
+#45) Volume Testing
+Volume Testing is a type of Non-Functional Testing performed by the Performance Testing team.
+The software or application undergoes a huge amount of data and Volume Testing checks the system behavior 
+and response time of the application when the system came across such a high volume of data.
+This high volume of data may impact the system’s performance and speed of processing time.
+
+#46) White Box Testing
+White Box Testing is based on the knowledge about the internal logic of an application’s code.
+It is also known as Glass box Testing. Internal software and code work should be known to perform this type 
+of testing. Under this, tests are based on the coverage of code statements, branches, paths, conditions, etc.
+================================================================================
+
+What is a Test Framework?
+Before diving into the most common types of frameworks and their benefits, let’s clarify what a test automation 
+framework actually is. A testing framework is a set of guidelines or rules used for creating and designing test cases.
+ A framework is comprised of a combination of practices and tools that are designed to help QA professionals test 
+more efficiently.
+
+These guidelines could include coding standards, test-data handling methods, object repositories, processes for 
+storing test results, or information on how to access external resources.
+
+While these are not mandatory rules and testers can still script or record tests without following them, using an 
+organized framework typically provides additional benefits that would otherwise be missed out on.
+
+Benefits of a Test Automation Framework
+Utilizing a framework for automated testing will increase a team’s test speed and efficiency, improve test accuracy, 
+and will reduce test maintenance costs as well as lower risks. They are essential to an efficient automated testing 
+process for a few key reasons:  
+
+Improved test efficiency
+Lower maintenance costs
+Minimal manual intervention
+Maximum test coverage
+Reusability of code
+A common trend to minimize risk is to test earlier in the Test Automation Framework. By using tools such as TestLeft, you can test in your own IDE.
+
